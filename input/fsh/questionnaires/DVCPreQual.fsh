@@ -3,11 +3,11 @@ InstanceOf: sdc-questionnaire-extr-smap
 Description: "Questionnaire for DVC Logical Model with the WHO PreQual DB"
 Title: "DVC Model Questionnaire"
 Usage: #definition
-* status = #draft
-* contained[+] = http://terminology.hl7.org/ValueSet/v3-Country
-* contained[+] = DVCRelationshipStatus
-* contained[+] = PreQualProductIds
-* contained[+] = http://terminology.hl7.org/ValueSet/v2-0203
+* status = #active
+//* contained[+] = http://terminology.hl7.org/ValueSet/v3-Country
+//* contained[+] = DVCRelationshipStatus
+//* contained[+] = PreQualProductIds
+//* contained[+] = http://terminology.hl7.org/ValueSet/v2-0203
 
 * insert Question(name, Full Name of the client, string, false, true)
 * insert Question(dob, Date of Birth, date, false, true)
