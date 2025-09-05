@@ -19,10 +19,9 @@ Profile: DVCImmunization
 Parent: Immunization
 Id: DVCImmunization
 Title: "DVC Immunization"
-Description: "DVC Immunization"
-* ^status = #active
 Description: "This profile represents a vaccination record for Digital Vaccine Certificates"
 
+* ^status = #actives
 * lotNumber MS
 * lotNumber ^label = "Vaccine batch number"
 //* patient only Reference(DVCPatient)
