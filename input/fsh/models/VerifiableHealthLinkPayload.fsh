@@ -11,13 +11,13 @@ Characteristics: #can-be-target
 * ^status = #active
 * type 1..1
 * type from HL_TYPE (preferred)
-* type obeys is-a-verifiable-health-link
+* obeys is-a-verifiable-health-link
 
 
 Invariant: is-a-verifiable-health-link
 Description: "The Health Link type is is a verifiable health link"
 Severity: #error
-Expression: "type.code = 'vhl'"
+Expression: "type = 'vhl'"
 
 
 
