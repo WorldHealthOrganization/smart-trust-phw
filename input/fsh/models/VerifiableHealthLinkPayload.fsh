@@ -17,7 +17,7 @@ Characteristics: #can-be-target
 Invariant: is-a-verifiable-health-link
 Description: "The Health Link type is is a verifiable health link"
 Severity: #error
-Expression: "code = 'vhl'"
+Expression: "type.code = 'vhl'"
 
 
 
