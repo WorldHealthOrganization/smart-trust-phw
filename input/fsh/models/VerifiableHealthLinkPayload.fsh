@@ -11,7 +11,7 @@ Characteristics: #can-be-target
 * ^status = #active
 * type 1..1
 * type from HL_TYPE (preferred)
-//* obeys is-a-verifiable-health-link
+/* obeys is-a-verifiable-health-link
 
 
 Invariant: is-a-verifiable-health-link
@@ -21,3 +21,4 @@ Expression: "type = 'vhl'"
 
 
 
+*/
