@@ -1,4 +1,5 @@
 Alias: $loinc = http://loinc.org
+Alias: $v2-0360 = http://terminology.hl7.org/CodeSystem/v2-0360
 
 
 Instance: DVCDocExample
