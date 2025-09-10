@@ -84,3 +84,15 @@ InstanceOf: Practitioner
 Usage: #inline
 * name[+].text = "Dr. A"
 
+Instance: 1c616b24-3895-48c4-9a02-9a64110351ef
+InstanceOf: Practitioner
+Description: "Example Practitioner"
+Usage: #inline
+* identifier.system = "urn:oid:2.16.528.1.1007.3.1"
+* identifier.value = "129854633"
+* identifier.assigner.display = "CIBG"
+* active = true
+* name.family = "van Hulp"
+* name.given = "Beetje"
+* qualification.code.coding.version = "2.7"
+* qualification.code.coding = $v2-0360#MD "Doctor of Medicine"

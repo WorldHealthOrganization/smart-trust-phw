@@ -26,7 +26,7 @@ Usage: #inline
 * identifier.value = "d348b02a-3ab8-4cec-bbec-5186abca8c7d"
 * status = #final
 * type = $LOINC#82593-5 "Immunization summary report"
-* subject = Reference(urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8)
+* subject = Reference(urn:uuid:157863f7-fdea-4d11-92ff-f33345a560e4)
 * date = "2017-12-11T14:30:00+01:00"
 * author = Reference(urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef)
 * title = "Patient Summary as of December 11, 2017 14:30"
