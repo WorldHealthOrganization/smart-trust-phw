@@ -21,7 +21,7 @@ Usage: #example
 
 
 Instance: 24351938-53ea-4d4f-b07b-7f557656005e
-InstanceOf: Composition
+InstanceOf: DVCComposition
 Title : "DVC IPS Composition"
 Description: "DVC IPS Composition Example"
 Usage: #inline  
