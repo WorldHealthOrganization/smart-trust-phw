@@ -21,14 +21,14 @@ Usage: #example
 
 
 Instance: 24351938-53ea-4d4f-b07b-7f557656005e
-InstanceOf: DVCComposition
+InstanceOf: Composition
 Title : "DVC IPS Composition"
 Description: "DVC IPS Composition Example"
 Usage: #inline  
 * identifier.system = "urn:oid:2.16.724.4.8.10.200.10"
 * identifier.value = "d348b02a-3ab8-4cec-bbec-5186abca8c7d"
 * status = #final
-* type = $loinc#82593-5 "Patient summary Document"
+* type = $loinc#82593-5 "Immunization summary report"
 * subject = Reference(urn:uuid:175863f7-fdea-4d11-92ff-f33345a560e4)
 * date = "2017-12-11T14:30:00+01:00"
 * author = Reference(urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef)
@@ -41,7 +41,7 @@ Usage: #inline
 * section[demographic].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sample patient</div>"
 * section[demographic].entry = Reference(urn:uuid:175863f7-fdea-4d11-92ff-f33345a560e4)
 * section[vaccination].title = "Vaccination"
-* section[vaccination].code = $loinc#11369-6 "History of Vaccination"
+* section[vaccination].code = $loinc#11369-6 "History of Immunization note"
 * section[vaccination].text.status = #generated
 * section[vaccination].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vaccination stuff</div>"
 * section[vaccination].entry[+] = Reference(urn:uuid:bc283f8f-7092-4cc1-9d4d-8928b0341d00)

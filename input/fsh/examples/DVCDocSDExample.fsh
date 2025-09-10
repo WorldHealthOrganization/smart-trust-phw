@@ -25,7 +25,7 @@ Usage: #inline
 * identifier.system = "urn:oid:2.16.724.4.8.10.200.10"
 * identifier.value = "d348b02a-3ab8-4cec-bbec-5186abca8c7d"
 * status = #final
-* type = $LOINC#82593-5 "Patient summary Document"
+* type = $LOINC#82593-5 "Immunization summary report"
 * subject = Reference(urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8)
 * date = "2017-12-11T14:30:00+01:00"
 * author = Reference(urn:uuid:1c616b24-3895-48c4-9a02-9a64110351ef)
@@ -40,7 +40,7 @@ Usage: #inline
 * section[demographic].text.extension[$SelectiveDisclosure].valueCode = DisclosureStatements#disclose-icvp-demographic-narrative
 * section[demographic].entry = Reference(urn:uuid:157863f7-fdea-4d11-92ff-f33345a560e4)
 * section[vaccination].title = "Vaccination"
-* section[vaccination].code = $LOINC#11369-6 "History of Vaccination"
+* section[vaccination].code = $LOINC#11369-6 "History of Immunization note"
 * section[vaccination].text.status = #generated
 * section[vaccination].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vaccination stuff</div>"
 * section[vaccination].text.extension[$SelectiveDisclosure].valueCode = DisclosureStatements#disclose-icvp-vaccination-narrative
