@@ -5,6 +5,7 @@ Parent: DVCBundle
 Id: DVCSDBundle
 Title: "DVC document Bundle with Selective Disclosure"
 Description: "DVC document Bundle with Selective Disclosure for each entry"
+* ^status = #active
 * entry[composition].resource only DVCSDComposition
 * entry[demographic].resource only DVCSDPatient
 * entry[vaccination].resource only DVCSDImmunization
@@ -14,6 +15,7 @@ Profile: DVCBundle
 Parent: Bundle
 Title : "Digital Vaccination Certificate - Bundle"
 Description : "Digital Vaccination Certificate - Bundle"
+* ^status = #active
 
 * ^publisher = "WHO"
 * . ^short = "Digital ICVP Certificate Bundle"

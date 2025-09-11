@@ -1,6 +1,7 @@
 ValueSet: DVCVaccines
 Title : "DVC - Vaccines"
 Description: "This value set includes codes from ICD"
+* ^status = #active
 
 * $ICD11#XM4639 "Tuberculosis vaccines"
 * $ICD11#XM8142 "Tuberculosis, live attenuated vaccines"

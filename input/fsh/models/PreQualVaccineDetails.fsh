@@ -12,6 +12,6 @@ Description:  "Vaccine Data elements from the Pre Qual Database"
 
 
 Invariant: is-a-prequal-product-id
-Description: "Product ID comes from the PreQual Databatase"
-Expression: "system = 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs'"
+Description: "Product ID comes from the PreQual Database"
+Expression: "system = 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds'"
 Severity: #error

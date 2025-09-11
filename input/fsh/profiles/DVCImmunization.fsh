@@ -10,6 +10,7 @@ Parent: DVCImmunization
 Id: DVCSDImmunization
 Title: "DVC Immunization with Selective Disclosure"
 Description: "DVC Immunization with Selective Disclosure"
+* ^status = #active
 * extension contains $SelectiveDisclosure  named SelectiveDisclosure 0..1
 * text.extension contains $SelectiveDisclosure  named SelectiveDisclosure 0..1
 
@@ -20,6 +21,7 @@ Id: DVCImmunization
 Title: "DVC Immunization"
 Description: "This profile represents a vaccination record for Digital Vaccine Certificates"
 
+* ^status = #active
 * lotNumber MS
 * lotNumber ^label = "Vaccine batch number"
 //* patient only Reference(DVCPatient)

@@ -3,6 +3,7 @@ Title: "Disclosure Statements"
 Description: "Disclosure Statement Code System"
 
 
+* ^status = #active
 
 * #disclose-icvp "Disclose ICVP "
   "Agree to disclose the full details of your vaccination history and demogrpahic information as is contained in the International Certification of Vaccination or Prophylaxsis"

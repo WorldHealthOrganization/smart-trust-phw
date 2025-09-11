@@ -3,6 +3,7 @@ Description: "Guidance that a document signing service with selective disclosure
 
 The code value should be from a code system containing appropriate disclosure statements for the use case.  The disclosure statement should describe the content that is to be disclosed at that node.  For example a code such as 'disclose-date-of-birth' or 'disclose-vaccine-history'.
 "
+* ^status = #active
 * value[x] only code
 * valueCode 1.. MS
 
