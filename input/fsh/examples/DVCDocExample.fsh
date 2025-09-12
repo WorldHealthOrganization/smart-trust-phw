@@ -38,15 +38,15 @@ Usage: #inline
 * text.status = #generated
 //* confidentiality = #N
 * section[demographic].title = "Demographic information section"
-* section[demographic].code = $loinc#45970-1 "Patient demographics"
+* section[demographic].code = $loinc#45970-1 "Demographic information section"
 * section[demographic].text.status = #generated
 * section[demographic].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sample patient</div>"
-* section[demographic].entry = Reference(urn:uuid:175863f7-fdea-4d11-92ff-f33345a560e4)
+* section[demographic].entry = Reference(175863f7-fdea-4d11-92ff-f33345a560e4)
 * section[vaccination].title = "Vaccination"
 * section[vaccination].code = $loinc#11369-6 "History of Immunization note"
 * section[vaccination].text.status = #generated
 * section[vaccination].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vaccination stuff</div>"
-* section[vaccination].entry[+] = Reference(urn:uuid:bc283f8f-7092-4cc1-9d4d-8928b0341d00)
+* section[vaccination].entry[+] = Reference(bc283f8f-7092-4cc1-9d4d-8928b0341d00)
 
 
 
