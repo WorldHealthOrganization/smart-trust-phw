@@ -24,7 +24,7 @@ Usage: #definition
 * insert Question(vaccineDetails,Vaccine Certificate Details,group, true, true)
 * item[=]
   * insert Question(productID, Vaccine or Prophylaxis ID, choice, false, true)
-  * item[=].answerValueSet = $PreQualProductIDsVS
+  * item[=].answerValueSet = $PreQualProductIdsVS
   * insert Question(date, Date of Vaccination, date, false, true)
   * insert Question(clinicianName, Name of supervising clinician, string, false, false)
   * insert Question(issuer, Relevant authoring responsible for issuing the certificate\, or for overseeing the administration center, string, false, false)

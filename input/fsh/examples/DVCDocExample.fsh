@@ -11,12 +11,12 @@ Usage: #example
 * identifier.value = "175bd032-8b00-4728-b2dc-748bb1501aed"
 * type = #document
 * timestamp = "2024-02-11T11:32:00+01:00"
-* entry[composition].fullUrl = "urn:uuid:24351938-53ea-4d4f-b07b-7f557656005e"
-* entry[composition].resource = 24351938-53ea-4d4f-b07b-7f557656005e  //composition
-* entry[demographic].fullUrl = "urn:uuid:175863f7-fdea-4d11-92ff-f33345a560e4"
-* entry[demographic].resource = 175863f7-fdea-4d11-92ff-f33345a560e4 //patient
-* entry[vaccination].fullUrl = "urn:uuid:bc283f8f-7092-4cc1-9d4d-8928b0341d00"
-* entry[vaccination].resource = bc283f8f-7092-4cc1-9d4d-8928b0341d00 //immunization
+* entry[0].fullUrl = "urn:uuid:24351938-53ea-4d4f-b07b-7f557656005e"
+* entry[=].resource = 24351938-53ea-4d4f-b07b-7f557656005e  //composition
+* entry[+].fullUrl = "urn:uuid:175863f7-fdea-4d11-92ff-f33345a560e4"
+* entry[=].resource = 175863f7-fdea-4d11-92ff-f33345a560e4 //patient
+* entry[+].fullUrl = "urn:uuid:bc283f8f-7092-4cc1-9d4d-8928b0341d00"
+* entry[=].resource = bc283f8f-7092-4cc1-9d4d-8928b0341d00 //immunization
 
 
 
@@ -37,15 +37,16 @@ Usage: #inline
 * text.div =   "<div xmlns=\"http://www.w3.org/1999/xhtml\">To be added</div>"
 * text.status = #generated
 //* confidentiality = #N
-* section[demographic].title = "Patient"
+* section[demographic].title = "Demographic information section"
+* section[demographic].code = $loinc#45970-1 "Demographic information section"
 * section[demographic].text.status = #generated
 * section[demographic].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sample patient</div>"
-* section[demographic].entry = Reference(urn:uuid:175863f7-fdea-4d11-92ff-f33345a560e4)
+* section[demographic].entry = Reference(175863f7-fdea-4d11-92ff-f33345a560e4)
 * section[vaccination].title = "Vaccination"
 * section[vaccination].code = $loinc#11369-6 "History of Immunization note"
 * section[vaccination].text.status = #generated
 * section[vaccination].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vaccination stuff</div>"
-* section[vaccination].entry[+] = Reference(urn:uuid:bc283f8f-7092-4cc1-9d4d-8928b0341d00)
+* section[vaccination].entry[+] = Reference(bc283f8f-7092-4cc1-9d4d-8928b0341d00)
 
 
 

@@ -52,6 +52,8 @@ dependencies:
 #    version: 0.1.0
     version: current
     reason: This IG uses SMART base computable guideline capabilities
+  smart.who.int.pcmt-vaxprequal:
+    version: current
 #  smart.who.int.trust:
 #    id: trust
 #    version: dev

@@ -43,7 +43,7 @@ Description : "Digital Vaccination Certificate - Composition"
 
 * section[demographic] ^short = "Demographic Status Section"
 * section[demographic] ^definition = "Demographic Status Section lists the relvant demographics known abot the subject of the ICVP"
-* section[demographic].code = $LOINC#11369-6
+* section[demographic].code = $LOINC#45970-1
 * section[demographic].entry only Reference(DVCPatient)
 
 
