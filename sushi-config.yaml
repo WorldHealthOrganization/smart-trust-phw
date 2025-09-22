@@ -50,7 +50,7 @@ dependencies:
   smart.who.int.base:
     id: sb
 #    version: 0.1.0
-    version: 0.1.0
+    version: 0.2.0
     reason: This IG uses SMART base computable guideline capabilities
   smart.who.int.pcmt-vaxprequal:
     version: 0.2.0
