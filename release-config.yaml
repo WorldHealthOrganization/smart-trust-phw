@@ -17,52 +17,45 @@ webroot_branch: "main"
 registry_repo: "https://github.com/ritikarawlani/ig-registry"
 history_repo: "https://github.com/HL7/fhir-ig-history-template"
 
-
-  
 # DAK scripts configuration
 scripts:
-# Download DAK scripts from smart-base repository
+  # Download DAK scripts from smart-base repository
   source_repo: "https://github.com/WorldHealthOrganization/smart-base"
   source_branch: "main"
   source_path: "input/scripts"
-    
-# Scripts to run during preprocessing (before IG Publisher)
-preprocessing:
-  - "generate_dak_from_sushi.py"      # Generate DAK config from sushi-config.yaml
-  - "update_sushi_config.py"          # Update sushi config with DAK settings
-  - "dmn_questionnaire_generator.py"  # Generate questionnaires from DMN files
-  - "transform_dmn.py"                # Transform DMN files to HTML
-    
-# Scripts to run during postprocessing (after IG Publisher)
-postprocessing:
-  - "generate_valueset_schemas.py"    # JSON schemas for ValueSets
-  - "generate_logical_model_schemas.py" # JSON schemas for Logical Models  
-  - "generate_jsonld_vocabularies.py" # JSON-LD vocabularies
-  - "generate_dak_api_hub.py"         # Comprehensive API documentation
   
+  # Scripts to run during preprocessing (before IG Publisher)
+  preprocessing:
+    - "generate_dak_from_sushi.py"      # Generate DAK config from sushi-config.yaml
+    - "update_sushi_config.py"          # Update sushi config with DAK settings
+    - "dmn_questionnaire_generator.py"  # Generate questionnaires from DMN files
+    - "transform_dmn.py"                # Transform DMN files to HTML
+  
+  # Scripts to run during postprocessing (after IG Publisher)
+  postprocessing:
+    - "generate_valueset_schemas.py"    # JSON schemas for ValueSets
+    - "generate_logical_model_schemas.py" # JSON schemas for Logical Models  
+    - "generate_jsonld_vocabularies.py" # JSON-LD vocabularies
+    - "generate_dak_api_hub.py"         # Comprehensive API documentation
+
 # File patterns to include in sparse checkout when cloning smart-base
 sparse_includes:
   - "/input/scripts/"
   - "/input/includes/"
-  
+
 # Output configuration
 output:
-# Additional files to preserve in sitepreview
+  # Additional files to preserve in sitepreview
   preserve_patterns:
     - "*.schema.json"
     - "*.jsonld" 
     - "*.openapi.json"
     - "dak-api.html"
-    
-# Files to exclude from deployment (too large)
-exclude_patterns:
-  - "ig-build-zips/"
-  - "temp/"
-
-# GitHub Actions integration
-
   
-
+  # Files to exclude from deployment (too large)
+  exclude_patterns:
+    - "ig-build-zips/"
+    - "temp/"
 
 # Sparse checkout configuration for webroot
 sparse_checkout:
