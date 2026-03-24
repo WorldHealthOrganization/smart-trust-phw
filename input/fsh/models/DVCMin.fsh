@@ -2,7 +2,7 @@ Alias: $identifierType = http://terminology.hl7.org/CodeSystem/v2-0203
 
 Logical:         DVCMin
 Title:           "DVC HCERT Payload"
-Description:     "Mininmial DVC payload for use within an HCERT Payload"
+Description:     "Minimal DVC payload for use within an HCERT Payload"
 * ^status = #active
 * ^abstract = true
 * n 1..1 string "Name"
@@ -50,5 +50,5 @@ Logical: DVCMinPreQual
 Parent:  DVCMin
 Description: "DVC payload mininmized  for use within an HCERT Payload with the WHO PreQual Vaccine Database"
 * ^abstract = false
-* v only DVCMinVaccineDetailsPreQual
+* vac only DVCMinVaccineDetailsPreQual
 
