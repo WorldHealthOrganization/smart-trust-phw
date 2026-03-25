@@ -7,4 +7,4 @@ Description:  "Vaccine Data elements from the Pre Qual Database"
 * ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * ^status = #active
 * ^experimental = true
-* vaccine 1..1 Reference($FinishedVaccineProducts) "Vaccine or prophylaxis" "Vaccine or prophylaxis product from the PreQual database"
+//* vaccine Reference($FinishedVaccineProducts) "Vaccine or prophylaxis" "Vaccine or prophylaxis product from the PreQual database"
