@@ -11,8 +11,8 @@ Description:  "Data elements for Digital Vaccination Certificate."
 * dob 1..1 date "Date of Birth" "Date of Birth"
 * sex 1..1 code "Sex" "Sex"
 * sex from $GENDER (extensible)
-* nationality 0..1 Coding "Nationality" "Nationality"
-* nationality from $countryVS (extensible) //ISO
+* nationality 1..* Coding "Nationality" "Nationality"
+* nationality from $countryVS (extensible)
 * nid 0..* Identifier "National Identification Document, if applicable" "National Identification Document, if applicable"
 * nid.system from $identifierTypeVS (extensible)
 * guardian 0..1 string "Name of the parent or guardian. Required, if applicable" "Name of the parent or guardian. Required, if applicable"
@@ -22,6 +22,7 @@ Description:  "Data elements for Digital Vaccination Certificate."
   * kid 1..1 string "Key identifier for signature verification" "Key identifier for signature verification"
 * vaccineDetails 1..* VaccineDetails "Vaccine Details" "Vaccine Details"
 * version 1..1 string "Version" "Version of the certificate template"
+* obeys nid-must-have-value
 
 Invariant: nid-must-have-value
 Description: "If National ID is present, it must have a value"

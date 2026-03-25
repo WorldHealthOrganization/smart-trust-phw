@@ -7,11 +7,4 @@ Description:  "Vaccine Data elements from the Pre Qual Database"
 * ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * ^status = #active
 * ^experimental = true
-* vaccine obeys is-a-prequal-product-id
-
-
-
-Invariant: is-a-prequal-product-id
-Description: "Product ID comes from the PreQual Database"
-Expression: "system = 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds'"
-Severity: #error
+* vaccine 1..1 Reference($FinishedVaccineProducts) "Vaccine or prophylaxis" "Vaccine or prophylaxis product from the PreQual database"

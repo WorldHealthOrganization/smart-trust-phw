@@ -1,7 +1,3 @@
-Alias: $Product = http://smart.who.int/pcmt/StructureDefinition/Product
-Alias: $FinishedVaccineProducts = http://smart.who.int/pcmt-vaxprequal/StructureDefinition/FinishedVaccineProducts
-
-
 Profile: VaccineDetailsSD
 Parent: VaccineDetails
 Id: VaccineDetailsSD
@@ -26,7 +22,7 @@ Description:  "Vaccine Data elements for the Digital Vaccination Certificates"
 * ^status = #active
 * ^experimental = true
 
-* vaccine 1..1 Reference($FinishedVaccineProducts) "Vaccine or prophylaxis" "Vaccine or prophylaxis product" //codeable ref here and reference on ICVP
+* vaccine 1..1 CodeableReference "Vaccine or prophylaxis" "Vaccine or prophylaxis product"
 * date 1..1 date "Date" "Date of vaccination"
 * issuer 0..1 Reference(Organization) "Relevant authority responsible for issuing this certificate" "Relevant authoring responsible for issuing the certificate, or for overseeing the administration center"
 * clinicianName 0..1 string "Name of supervising clinician" "Name of supervising clinician, of relevant authority responsible for issuing this certificate, or for overseeing the administering centre"

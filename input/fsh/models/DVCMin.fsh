@@ -10,6 +10,7 @@ Description:     "Minimal DVC payload for use within an HCERT Payload"
 * s 1..1 code "Sex"
 * s from $GENDER (extensible)
 * n 1..1 code "Nationality"
+* n from $countryVS (extensible)
 * id 0..1 string "National Identification Document"
 * dt 0..1 code "National ID Document Type"
 * dt from $identifierTypeVS (extensible)
