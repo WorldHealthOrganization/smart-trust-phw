@@ -22,3 +22,8 @@ Description:  "Data elements for Digital Vaccination Certificate."
   * kid 1..1 string "Key identifier for signature verification" "Key identifier for signature verification"
 * vaccineDetails 1..* VaccineDetails "Vaccine Details" "Vaccine Details"
 * version 1..1 string "Version" "Version of the certificate template"
+
+Invariant: nid-must-have-value
+Description: "If National ID is present, it must have a value"
+Expression: "nid.empty() or nid.value.exists()"
+Severity: #error

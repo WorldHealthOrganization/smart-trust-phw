@@ -26,11 +26,11 @@ Description:  "Vaccine Data elements for the Digital Vaccination Certificates"
 * ^status = #active
 * ^experimental = true
 
-* vaccine 1..1 Reference($FinishedVaccineProducts) "Vaccine or prophylaxis" "Vaccine or prophylaxis product"
+* vaccine 1..1 Reference($FinishedVaccineProducts) "Vaccine or prophylaxis" "Vaccine or prophylaxis product" //codeable ref here and reference on ICVP
 * date 1..1 date "Date" "Date of vaccination"
 * issuer 0..1 Reference(Organization) "Relevant authority responsible for issuing this certificate" "Relevant authoring responsible for issuing the certificate, or for overseeing the administration center"
 * clinicianName 0..1 string "Name of supervising clinician" "Name of supervising clinician, of relevant authority responsible for issuing this certificate, or for overseeing the administering centre"
-* manufacturer 1..1 string "Manufacturer of vaccine or prophylaxis" "Manufacturer of vaccine or prophylaxis"
+* manufacturer 1..1 Reference(Organization) "Manufacturer of vaccine or prophylaxis" "Manufacturer of vaccine or prophylaxis"
 * batchNo 1..1 CodeableConcept "Batch No. of vaccine or prophylaxis" "Batch No. of vaccine or prophylaxis"
 * validity 1..1 Period "Certificate valid from... until..." "Certificate valid from... until..."
 * obeys must-have-issuer-or-clinician
