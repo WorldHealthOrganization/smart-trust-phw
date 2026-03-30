@@ -37,6 +37,8 @@ Alias: $PreQualProductIdsVS = http://smart.who.int/pcmt-vaxprequal/ValueSet/PreQ
 Alias: $PreQualVaccineType = http://smart.who.int/icvp/ValueSet/PreQualVaccineType
 
 Alias: $PreQualProductIDsVS = http://smart.who.int/pcmt-vaxprequal/ValueSet/PreQualProductIDs
+Alias: $FinishedVaccineProducts = http://smart.who.int/pcmt-vaxprequal/StructureDefinition/FinishedVaccineProducts
 
 Alias: $identifierType = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $identifierTypeVS = http://terminology.hl7.org/ValueSet/v2-0203
+Alias: $countryVS = http://hl7.org/fhir/ValueSet/iso3166-1-3

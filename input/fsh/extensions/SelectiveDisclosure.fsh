@@ -9,7 +9,7 @@ The code value should be from a code system containing appropriate disclosure st
 
 
 Invariant: has-selective-disclosure-on-entries
-Description: "Ensure there is a selective disclosure exension for each entry of a document bundle"
+Description: "Ensure there is a selective disclosure extension for each entry of a document bundle"
 Severity: #warning
 Expression: "
   entry.extension.where(url='http://smart.who.int/trust-phw/SelectiveDisclosure').count() = entry.count()
