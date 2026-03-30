@@ -5,12 +5,12 @@ Title:           "DVC HCERT Payload"
 Description:     "Minimal DVC payload for use within an HCERT Payload"
 * ^status = #active
 * ^abstract = true
-* fn 1..1 string "Name"
+* n 1..1 string "Name"
 * dob 1..1 date "Date of birth"
 * s 1..1 code "Sex"
 * s from $GENDER (extensible)
-* n 1..1 code "Nationality"
-* n from $countryVS (extensible)
+* nt 1..1 code "Nationality"
+* nt from $countryVS (extensible)
 * id 0..1 string "National Identification Document"
 * dt 0..1 code "National ID Document Type"
 * dt from $identifierTypeVS (extensible)
@@ -23,7 +23,7 @@ Title:  "DVC HCert Vaccine Details (Minimal)"
 Description:     "DVC Vaccine Details for a minimal DVC payload for use within an HCERT Payload"
 * ^status = #active
 * ^abstract = true
-* vp 1..1 string "Vaccine Product ID"
+* vp 1..1 code "Vaccine Product ID"
 * dt 1..1 date "Date of vaccination"
 * cn 0..1 string "Name of supervising clinician"
 * is 0..1 id "Certificate issuer id (referenced organization)"
