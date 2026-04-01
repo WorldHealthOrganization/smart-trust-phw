@@ -20,7 +20,7 @@ Description:  "Data elements for Digital Vaccination Certificate."
 * integrityCheck 0..* BackboneElement "Integrity check value" "Integrity check value"
   * cryptographicSignature 1..1 string "Cryptographic signature of the issuer" "Cryptographic signature of the issuer"
   * kid 1..1 string "Key identifier for signature verification" "Key identifier for signature verification"
-* vaccineDetails 1..* VaccineDetails "Vaccine Details" "Vaccine Details"
+* vaccineDetails 1..* DVCVaccineDetails "Vaccine Details" "Vaccine Details"
 * version 1..1 string "Version" "Version of the certificate template"
 * obeys nid-must-have-value
 

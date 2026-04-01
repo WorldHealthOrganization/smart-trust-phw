@@ -1,5 +1,5 @@
 Profile: VaccineDetailsSD
-Parent: VaccineDetails
+Parent: DVCVaccineDetails
 Id: VaccineDetailsSD
 Title: "DVC Vaccine Details with Selective Disclosure"
 Description: "DVC Vaccine Details with Selective Disclosure"

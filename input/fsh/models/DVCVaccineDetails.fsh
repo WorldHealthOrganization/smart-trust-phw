@@ -1,4 +1,4 @@
-Logical: VaccineDetails
+Logical: DVCVaccineDetails
 Title: "DVC - Vaccine Details"
 Description:  "Vaccine Data elements for the Digital Vaccination Certificates"
 * ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition"
