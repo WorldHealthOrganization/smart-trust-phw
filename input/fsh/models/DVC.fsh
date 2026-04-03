@@ -27,5 +27,5 @@ Description:  "Data elements for Digital Vaccination Certificate."
 
 Invariant: nid-must-have-value
 Description: "If National ID is present, it must have a value and a system"
-Expression: "nid.empty() or (nid.value.exists() and nid.system.exists())
+Expression: "nid.empty() or (nid.value.exists() and nid.system.exists())"
 Severity: #error
