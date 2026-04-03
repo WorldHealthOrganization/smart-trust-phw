@@ -16,7 +16,8 @@ Description:  "Data elements for Digital Vaccination Certificate."
 * nid 0..* Identifier "National Identification Document, if applicable" "National Identification Document, if applicable"
 * nid.system from $identifierTypeVS (extensible)
 * guardian 0..1 string "Name of the parent or guardian. Required, if applicable" "Name of the parent or guardian. Required, if applicable"
-* disease 1..* Coding "Name of disease or condition" "Name of disease or condition" //mark for SAG call 
+* disease 1..* Coding "Name of disease or condition" "Name of disease or condition"
+* disease from $ICD11 (extensible)
 * integrityCheck 0..* BackboneElement "Integrity check value" "Integrity check value"
   * cryptographicSignature 1..1 string "Cryptographic signature of the issuer" "Cryptographic signature of the issuer"
   * kid 1..1 string "Key identifier for signature verification" "Key identifier for signature verification"
@@ -25,6 +26,6 @@ Description:  "Data elements for Digital Vaccination Certificate."
 * obeys nid-must-have-value
 
 Invariant: nid-must-have-value
-Description: "If National ID is present, it must have a value"
-Expression: "nid.empty() or nid.value.exists()"
+Description: "If National ID is present, it must have a value and a system"
+Expression: "nid.empty() or (nid.value.exists() and nid.system.exists())
 Severity: #error

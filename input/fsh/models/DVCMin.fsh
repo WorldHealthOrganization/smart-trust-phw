@@ -1,5 +1,3 @@
-Alias: $identifierType = http://terminology.hl7.org/CodeSystem/v2-0203
-
 Logical:         DVCMin
 Title:           "DVC HCERT Payload"
 Description:     "Minimal DVC payload for use within an HCERT Payload"

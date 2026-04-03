@@ -15,16 +15,11 @@ Description:  "Vaccine Data elements for the Digital Vaccination Certificates"
 * batchNo 1..1 CodeableConcept "Batch No. of vaccine or prophylaxis" "Batch No. of vaccine or prophylaxis"
 * validity 1..1 Period "Certificate valid from... until..." "Certificate valid from... until..."
 * obeys must-have-issuer-or-clinician
+* obeys period-from-until-must-be-present-and-valid
 
 Invariant: must-have-issuer-or-clinician
 Description: "Either issuer or clinicianName must be present"
 Expression: "issuer.exists() or clinicianName.exists()"
-Severity: #error
-
-
-Invariant: vaccine-id-and-system-must-be-present
-Description: "Both ID and system must be present for the vaccine identifier"
-Expression: "vaccine.id.exists() and vaccine.system.exists()"
 Severity: #error
 
 Invariant: period-from-until-must-be-present-and-valid

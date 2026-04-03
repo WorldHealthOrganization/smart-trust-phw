@@ -1,25 +1,12 @@
-Alias: $SCT = http://snomed.info/sct
 Alias: $LOINC = http://loinc.org
-Alias: $LNC = http://loinc.org
 Alias: $ICD11 = http://id.who.int/icd/release/11/mms
-Alias: $ICD10 = http://hl7.org/fhir/sid/icd-10
-Alias: $CVX = http://hl7.org/fhir/sid/cvx 
 Alias: $GENDER = http://hl7.org/fhir/administrative-gender
 
-Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
-Alias: $measure-scoring = http://terminology.hl7.org/CodeSystem/measure-scoring
-Alias: $measure-population = http://terminology.hl7.org/CodeSystem/measure-population
-Alias: $action-type = http://terminology.hl7.org/CodeSystem/action-type
 
 Alias: $pubStatus = http://hl7.org/fhir/publication-status
 Alias: $actorType = http://hl7.org/fhir/examplescenario-actor-type
-Alias: $SGcode = http://smart.who.int/base/StructureDefinition/Sgcode
 
-Alias: $DocumentationSection = http://smart.who.int/base/CodeSystem/DocumentationSection
-Alias: $SGActor = http://smart.who.int/base/StructureDefinition/SGActor
-Alias: $SGActorExt = http://smart.who.int/base/StructureDefinition/SGActorExt
 
-Alias: $SatisfiesExt = http://smart.who.int/base/StructureDefinition/Satisfies
 
 Alias: $DisclosureStatements = http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements
 Alias: $SelectiveDisclosure = http://smart.who.int/trust-phw/StructureDefinition/SelectiveDisclosure
@@ -30,15 +17,19 @@ Alias: $HLType = http://smart.who.int/trust-phw/CodeSystem/HL.TYPE
 // Alias: $TrustNetworkParticipant = http://smart.who.int/trust/ActorDefinition/TrustNetworkParticipant
 // Alias: $TrustNetworkAnchor = http://smart.who.int/trust/ActorDefinition/TrustNetworkAnchor
 
-Alias: $PreQualProductIDs = http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs
-Alias: $PreQualProductIds = http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIDs
+Alias: $PreQualProductIds = http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds
 Alias: $PreQualProductIdsVS = http://smart.who.int/pcmt-vaxprequal/ValueSet/PreQualProductIds
-
 Alias: $PreQualVaccineType = http://smart.who.int/icvp/ValueSet/PreQualVaccineType
-
-Alias: $PreQualProductIDsVS = http://smart.who.int/pcmt-vaxprequal/ValueSet/PreQualProductIDs
 Alias: $FinishedVaccineProducts = http://smart.who.int/pcmt-vaxprequal/StructureDefinition/FinishedVaccineProducts
 
 Alias: $identifierType = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $identifierTypeVS = http://terminology.hl7.org/ValueSet/v2-0203
+Alias: $v2-0360 = http://terminology.hl7.org/CodeSystem/v2-0360
 Alias: $countryVS = http://hl7.org/fhir/ValueSet/iso3166-1-3
+
+Alias: $DVCImmunization = http://smart.who.int/icvp/StructureDefinition/DVCImmunization
+Alias: $VaccineProduct = http://smart.who.int/icvp/StructureDefinition/VaccineProduct
+Alias: $PreQualVaccineIDs = http://smart.who.int/icvp/ValueSets/PreQualProductIDs
+Alias: $doseNumberCodeableConcept = http://smart.who.int/icvp/StructureDefinition/DoseNumberCodeableConcept
+
+Alias: $DVCRelationshipStatus = http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus
