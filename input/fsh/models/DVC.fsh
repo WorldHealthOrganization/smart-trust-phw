@@ -23,6 +23,7 @@ Description:  "Data elements for Digital Vaccination Certificate."
   * kid 1..1 string "Key identifier for signature verification" "Key identifier for signature verification"
 * vaccineDetails 1..* DVCVaccineDetails "Vaccine Details" "Vaccine Details"
 * version 1..1 string "Version" "Version of the certificate template"
+* version = "0.1.0"
 * obeys nid-must-have-value
 
 Invariant: nid-must-have-value
