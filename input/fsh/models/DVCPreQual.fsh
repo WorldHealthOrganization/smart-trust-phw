@@ -1,4 +1,4 @@
-Logical: PreQualDVC
+Logical: DVCPreQual
 Parent: DVC
 Title: "PreQual"
 Description:  "Data elements for the Digital Vaccine Certificate using WHO Vaccine PreQualification database" 
@@ -8,4 +8,4 @@ Description:  "Data elements for the Digital Vaccine Certificate using WHO Vacci
 * ^status = #active
 * ^experimental = true
 
-* vaccineDetails only PreQualVaccineDetails
+* vaccineDetails only DVCVaccineDetailsPreQual

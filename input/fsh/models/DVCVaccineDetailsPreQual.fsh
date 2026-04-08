@@ -1,5 +1,5 @@
-Logical: PreQualVaccineDetails
-Parent: VaccineDetails
+Logical: DVCVaccineDetailsPreQual
+Parent: DVCVaccineDetails
 Title: "PreQual - Vaccine Details"
 Description:  "Vaccine Data elements from the Pre Qual Database"
 * ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablestructuredefinition"
@@ -7,11 +7,11 @@ Description:  "Vaccine Data elements from the Pre Qual Database"
 * ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * ^status = #active
 * ^experimental = true
-* productID obeys is-a-prequal-product-id
 
+* vaccine.reference($FinishedVaccineProducts)
+* vaccine obeys vaccine-reference-must-exist
 
-
-Invariant: is-a-prequal-product-id
-Description: "Product ID comes from the PreQual Database"
-Expression: "system = 'http://smart.who.int/pcmt-vaxprequal/CodeSystem/PreQualProductIds'"
+Invariant: vaccine-reference-must-exist
+Description: "The vaccine reference must point to a resource that exists"
+Expression: "vaccine.reference.exists() implies exists(vaccine.reference)"
 Severity: #error
