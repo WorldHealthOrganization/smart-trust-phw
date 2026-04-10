@@ -1,5 +1,6 @@
 Alias: $LOINC = http://loinc.org
 Alias: $ICD11 = http://id.who.int/icd/release/11/mms
+Alias: $SCT = http://snomed.info/sct
 Alias: $GENDER = http://hl7.org/fhir/administrative-gender
 
 
@@ -33,3 +34,5 @@ Alias: $PreQualVaccineIDs = http://smart.who.int/icvp/ValueSets/PreQualProductID
 Alias: $doseNumberCodeableConcept = http://smart.who.int/icvp/StructureDefinition/DoseNumberCodeableConcept
 
 Alias: $DVCRelationshipStatus = http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus
+
+Alias: $ICVPCore = http://smart.who.int/trust-phw/CodeSystem/ICVP.Core

@@ -19,6 +19,8 @@ publisher:
 
 parameters:
   produce-jekyll-data: true
+  generate-version:
+    - r4
 
 dependencies:
 #  hl7.fhir.core:

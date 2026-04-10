@@ -1,6 +1,6 @@
-RuleSet: ElementMap(source, target, equivalence)
+RuleSet: ElementMap(source, target, relationship)
 * element[+]
   * code = #{source}
   * target[+]
     * code = #{target}
-    * equivalence = #{equivalence}
+    * relationship = #{relationship}
