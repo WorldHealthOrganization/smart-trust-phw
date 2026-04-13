@@ -44,7 +44,7 @@ Description:  "Data elements for Digital Vaccination Certificate."
 * vaccineDetails 1..* DVCVaccineDetails "Vaccine Details" "Vaccine Details"
 * version 1..1 string "Version" "Version of the certificate template"
   * ^code[+] = $ICVPCore#ICVP.D5.DE.27
-* version = "0.1.0"
+* version = "0.1.0" (exactly)
 * obeys nid-must-have-value
 
 Invariant: nid-must-have-value
