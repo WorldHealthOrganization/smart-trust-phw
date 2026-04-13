@@ -19,8 +19,8 @@ publisher:
 
 parameters:
   produce-jekyll-data: true
-  generate-version:
-    - r4
+#  generate-version:  # Disabled: IG Publisher v2.2.5+ R4 converter does not support logical model type constraints (only keyword)
+#    - r4
 
 dependencies:
 #  hl7.fhir.core:

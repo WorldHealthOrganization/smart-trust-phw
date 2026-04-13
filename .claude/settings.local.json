@@ -19,7 +19,8 @@
       "Read(//c/Users/ritik/AppData/Local/Temp/**)",
       "Bash(cygpath -w /tmp/ss.xml)",
       "Bash(cygpath -w /tmp/sh4.xml)",
-      "Bash(sushi .)"
+      "Bash(sushi .)",
+      "Bash(bash _genonce.sh)"
     ]
   }
 }

@@ -7,8 +7,10 @@ Description:  "Vaccine Data elements from the Pre Qual Database"
 * ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * ^status = #active
 * ^experimental = true
+* ^derivation = #constraint
+* ^type = "http://smart.who.int/trust-phw/StructureDefinition/DVCVaccineDetails"
 
-* vaccine.reference($FinishedVaccineProducts)
+* vaccine($FinishedVaccineProducts)
 * vaccine obeys vaccine-reference-must-exist
 
 Invariant: vaccine-reference-must-exist
