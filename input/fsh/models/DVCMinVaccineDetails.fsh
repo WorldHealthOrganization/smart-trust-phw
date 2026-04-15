@@ -7,7 +7,7 @@ Description:     "DVC Vaccine Details for a minimal DVC payload for use within a
   * ^code[+] = $ICVPCore#ICVP.C5.DE.11
   * ^code[+] = $LOINC#39236-5 "Vaccine code"
   * ^code[+] = $SCT#787859002 "Vaccine product (medicinal product)"
-* dt 1..1 date "Date of vaccination"
+* dv 1..1 date "Date of vaccination"
   * ^code[+] = $ICVPCore#ICVP.C5.DE.13
   * ^code[+] = $LOINC#30952-6 "Date and time of vaccination"
 * cn 0..1 string "Name of supervising clinician"
