@@ -10,7 +10,7 @@ Description:  "Vaccine Data elements from the Pre Qual Database"
 //* ^derivation = #constraint
 //* ^type = "http://smart.who.int/trust-phw/StructureDefinition/DVCVaccineDetails"
 
-* vaccine($FinishedVaccineProducts)
+* vaccine only Reference($FinishedVaccineProducts)
 * vaccine obeys vaccine-reference-must-exist
 
 Invariant: vaccine-reference-must-exist
