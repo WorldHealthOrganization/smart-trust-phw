@@ -10,10 +10,10 @@ Description:  "Vaccine Data elements from the Pre Qual Database"
 //* ^derivation = #constraint
 //* ^type = "http://smart.who.int/trust-phw/StructureDefinition/DVCVaccineDetails"
 
-* vaccine only Reference($FinishedVaccineProducts)
-* vaccine obeys vaccine-reference-must-exist
+* vaccine[x] only Reference($FinishedVaccineProducts)
+* vaccine[x] obeys vaccine-reference-must-exist
 
 Invariant: vaccine-reference-must-exist
 Description: "The vaccine reference must point to a resource that exists"
-Expression: "vaccine.reference.exists() implies exists(vaccine.reference)"
+Expression: "vaccineReference.reference.exists() implies vaccineReference.resolve().exists()"
 Severity: #error

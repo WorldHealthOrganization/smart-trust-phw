@@ -7,7 +7,7 @@ Description:  "Vaccine Data elements for the Digital Vaccination Certificates"
 * ^status = #draft
 * ^experimental = false
 
-* vaccine 1..1 CodeableReference "Vaccine or prophylaxis" "Vaccine or prophylaxis product"
+* vaccine[x] 1..1 CodeableConcept or Reference "Vaccine or prophylaxis" "Vaccine or prophylaxis product"
   * ^code[+] = $ICVPCore#ICVP.C5.DE.11
   * ^code[+] = $LOINC#39236-5 "Vaccine code"
   * ^code[+] = $SCT#787859002 "Vaccine product (medicinal product)"

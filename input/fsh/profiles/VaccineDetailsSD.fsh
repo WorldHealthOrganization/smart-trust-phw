@@ -3,7 +3,7 @@ Parent: DVCVaccineDetails
 Id: VaccineDetailsSD
 Title: "DVC Vaccine Details with Selective Disclosure"
 Description: "DVC Vaccine Details with Selective Disclosure"
-* vaccine.extension contains $SelectiveDisclosure named SelectiveDisclosure 0..1
+* vaccine[x].extension contains $SelectiveDisclosure named SelectiveDisclosure 0..1
 * date.extension contains $SelectiveDisclosure named SelectiveDisclosure 0..1
 * issuer.extension contains $SelectiveDisclosure named SelectiveDisclosure 0..1 
 * clinicianName.extension contains $SelectiveDisclosure named SelectiveDisclosure 0..1

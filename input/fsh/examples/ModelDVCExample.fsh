@@ -10,7 +10,7 @@ Usage: #example
 * nationality = urn:iso:std:iso:3166#IND
 
 * disease = http://id.who.int/icd/release/11/mms#1E51 "Poliomyelitis"
-* vaccineDetails[+].vaccine = Reference(http://smart.who.int/pcmt-vaxprequal/FinishedVaccineProducts/PolioVaccineOralOPVBivalProduct756b50d1047d7e92674342044a986a4e)
+* vaccineDetails[+].vaccineReference = Reference(http://smart.who.int/pcmt-vaxprequal/FinishedVaccineProducts/PolioVaccineOralOPVBivalProduct756b50d1047d7e92674342044a986a4e)
 * vaccineDetails[=].date = "2024-01-23"
 * vaccineDetails[=].clinicianName = "DR. A"
 * vaccineDetails[=].manufacturer = Reference(ExampleManufacturerOrg)
