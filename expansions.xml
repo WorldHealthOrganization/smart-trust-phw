@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="d7a9eb93-0ef8-4c94-9d38-20a4d27db511"/>
+  <meta>
+    <lastUpdated value="2026-08-31T12:51:30.670+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://smart.who.int/trust-phw/ValueSet/DVCRelationshipStatus"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-DVCRelationshipStatus.html">codesystem Relationship Status for Contact in Patient v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus-Parent"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DVCRelationshipStatus.html#DVCRelationshipStatus-Parent">Parent</a>
+                </td>
+                <td>Parent</td>
+                <td>Parent</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Parent&quot;, &quot;display&quot;: &quot;Parent&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Parent&quot;&gt;&lt;display value=&quot;Parent&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus-Guardian"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DVCRelationshipStatus.html#DVCRelationshipStatus-Guardian">Guardian</a>
+                </td>
+                <td>Guardian</td>
+                <td>Guardian</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;Guardian&quot;, &quot;display&quot;: &quot;Guardian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;Guardian&quot;&gt;&lt;display value=&quot;Guardian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/trust-phw/ValueSet/DVCRelationshipStatus"/>
+        <version value="0.1.0"/>
+        <name value="DVCRelationshipStatus"/>
+        <title value="Relationship Status for Contact in Patient"/>
+        <status value="draft"/>
+        <date value="2026-08-31T12:51:30+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f084f083-9743-43fa-8325-ca5974da6b3b"/>
+          <timestamp value="2026-08-31T12:55:10+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus"/>
+            <code value="Parent"/>
+            <display value="Parent"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DVCRelationshipStatus"/>
+            <code value="Guardian"/>
+            <display value="Guardian"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://smart.who.int/trust-phw/ValueSet/DisclosureStatements"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-DisclosureStatements.html">codesystem Disclosure Statements v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 13 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp">disclose-icvp</a>
+                </td>
+                <td>Disclose ICVP </td>
+                <td>Agree to disclose the full details of your vaccination history and demogrpahic information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp&quot;, &quot;display&quot;: &quot;Disclose ICVP &quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp&quot;&gt;&lt;display value=&quot;Disclose ICVP &quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-narrative"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-narrative">disclose-icvp-narrative</a>
+                </td>
+                <td>Disclose ICVP narrative</td>
+                <td>Agree to disclose a narrative summary of your vaccination history as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-narrative&quot;, &quot;display&quot;: &quot;Disclose ICVP narrative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-narrative&quot;&gt;&lt;display value=&quot;Disclose ICVP narrative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-demographic"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-demographic">disclose-icvp-demographic</a>
+                </td>
+                <td>Disclose full details of ICVP demograhic narrative</td>
+                <td>Agree to disclose full details your demographic information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-demographic&quot;, &quot;display&quot;: &quot;Disclose full details of ICVP demograhic narrative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-demographic&quot;&gt;&lt;display value=&quot;Disclose full details of ICVP demograhic narrative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-demographic-narrative"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-demographic-narrative">disclose-icvp-demographic-narrative</a>
+                </td>
+                <td>Disclose ICVP demograhic narrative</td>
+                <td>Agree to disclose a narrative summary of your demographic information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-demographic-narrative&quot;, &quot;display&quot;: &quot;Disclose ICVP demograhic narrative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-demographic-narrative&quot;&gt;&lt;display value=&quot;Disclose ICVP demograhic narrative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-demographic-name"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-demographic-name">disclose-icvp-demographic-name</a>
+                </td>
+                <td>Disclose name</td>
+                <td>Agree to disclose name from demographic issuer information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-demographic-name&quot;, &quot;display&quot;: &quot;Disclose name&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-demographic-name&quot;&gt;&lt;display value=&quot;Disclose name&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-demographic-sex"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-demographic-sex">disclose-icvp-demographic-sex</a>
+                </td>
+                <td>Disclose sex</td>
+                <td>Agree to disclose sex from demographic issuer information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-demographic-sex&quot;, &quot;display&quot;: &quot;Disclose sex&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-demographic-sex&quot;&gt;&lt;display value=&quot;Disclose sex&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-demographic-dob"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-demographic-dob">disclose-icvp-demographic-dob</a>
+                </td>
+                <td>Disclose date of birth</td>
+                <td>Agree to disclose date of birth from demographic issuer information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-demographic-dob&quot;, &quot;display&quot;: &quot;Disclose date of birth&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-demographic-dob&quot;&gt;&lt;display value=&quot;Disclose date of birth&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-demographic-nationality"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-demographic-nationality">disclose-icvp-demographic-nationality</a>
+                </td>
+                <td>Disclose nationality</td>
+                <td>Agree to disclose nationality from demographic issuer information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-demographic-nationality&quot;, &quot;display&quot;: &quot;Disclose nationality&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-demographic-nationality&quot;&gt;&lt;display value=&quot;Disclose nationality&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-demographic-national-id"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-demographic-national-id">disclose-icvp-demographic-national-id</a>
+                </td>
+                <td>Disclose national ID</td>
+                <td>Agree to disclose national ID or passport number from demographic issuer information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-demographic-national-id&quot;, &quot;display&quot;: &quot;Disclose national ID&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-demographic-national-id&quot;&gt;&lt;display value=&quot;Disclose national ID&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-vaccination"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-vaccination">disclose-icvp-vaccination</a>
+                </td>
+                <td>Disclose ICVP vaccination</td>
+                <td>Agree to disclose the full details of your vaccination history as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-vaccination&quot;, &quot;display&quot;: &quot;Disclose ICVP vaccination&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-vaccination&quot;&gt;&lt;display value=&quot;Disclose ICVP vaccination&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-vaccination-narrative"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-vaccination-narrative">disclose-icvp-vaccination-narrative</a>
+                </td>
+                <td>Disclose ICVP vaccination narrative</td>
+                <td>Agree to disclose a narrative summary of your vaccination information as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-vaccination-narrative&quot;, &quot;display&quot;: &quot;Disclose ICVP vaccination narrative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-vaccination-narrative&quot;&gt;&lt;display value=&quot;Disclose ICVP vaccination narrative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-vaccination-clinician"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-vaccination-clinician">disclose-icvp-vaccination-clinician</a>
+                </td>
+                <td>Disclose clinician name</td>
+                <td>Agree to disclose clinician name for this vaccination as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-vaccination-clinician&quot;, &quot;display&quot;: &quot;Disclose clinician name&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-vaccination-clinician&quot;&gt;&lt;display value=&quot;Disclose clinician name&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements-disclose-icvp-vaccination-issuer"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-DisclosureStatements.html#DisclosureStatements-disclose-icvp-vaccination-issuer">disclose-icvp-vaccination-issuer</a>
+                </td>
+                <td>Disclose issuer</td>
+                <td>Agree to disclose issuer for this vaccination as is contained in the International Certification of Vaccination or Prophylaxsis</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;disclose-icvp-vaccination-issuer&quot;, &quot;display&quot;: &quot;Disclose issuer&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;disclose-icvp-vaccination-issuer&quot;&gt;&lt;display value=&quot;Disclose issuer&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/trust-phw/ValueSet/DisclosureStatements"/>
+        <version value="0.1.0"/>
+        <name value="DisclosureStatements"/>
+        <title value="Disclosure Statements"/>
+        <status value="active"/>
+        <date value="2026-08-31T12:51:30+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:20eefa15-6d7d-4549-85b9-5dd26aefb38a"/>
+          <timestamp value="2026-08-31T12:55:10+00:00"/>
+          <total value="13"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp"/>
+            <display value="Disclose ICVP "/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-narrative"/>
+            <display value="Disclose ICVP narrative"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-demographic"/>
+            <display value="Disclose full details of ICVP demograhic narrative"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-demographic-narrative"/>
+            <display value="Disclose ICVP demograhic narrative"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-demographic-name"/>
+            <display value="Disclose name"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-demographic-sex"/>
+            <display value="Disclose sex"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-demographic-dob"/>
+            <display value="Disclose date of birth"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-demographic-nationality"/>
+            <display value="Disclose nationality"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-demographic-national-id"/>
+            <display value="Disclose national ID"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-vaccination"/>
+            <display value="Disclose ICVP vaccination"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-vaccination-narrative"/>
+            <display value="Disclose ICVP vaccination narrative"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-vaccination-clinician"/>
+            <display value="Disclose clinician name"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"/>
+            <code value="disclose-icvp-vaccination-issuer"/>
+            <display value="Disclose issuer"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://smart.who.int/trust-phw/ValueSet/HL.TYPE"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-HL.TYPE.html">codesystem HL Type CodeSystem v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://smart.who.int/trust-phw/CodeSystem/HL.TYPE|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/HL.TYPE-vhl"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/HL.TYPE</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-HL.TYPE.html#HL.TYPE-vhl">vhl</a>
+                </td>
+                <td>Verifiable Health Link</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/HL.TYPE&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;vhl&quot;, &quot;display&quot;: &quot;Verifiable Health Link&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/HL.TYPE&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;vhl&quot;&gt;&lt;display value=&quot;Verifiable Health Link&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://smart.who.int/trust-phw/CodeSystem/HL.TYPE-shl"> </a>
+                  <code>http://smart.who.int/trust-phw/CodeSystem/HL.TYPE</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-HL.TYPE.html#HL.TYPE-shl">shl</a>
+                </td>
+                <td>Smart Health Link</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://smart.who.int/trust-phw/CodeSystem/HL.TYPE&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;shl&quot;, &quot;display&quot;: &quot;Smart Health Link&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://smart.who.int/trust-phw/CodeSystem/HL.TYPE&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;shl&quot;&gt;&lt;display value=&quot;Smart Health Link&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://smart.who.int/trust-phw/ValueSet/HL.TYPE"/>
+        <version value="0.1.0"/>
+        <name value="HL_TYPE"/>
+        <title value="HL.TYPE ValueSet "/>
+        <status value="active"/>
+        <experimental value="true"/>
+        <date value="2026-08-31T12:51:30+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c20afd52-d099-4240-961c-5402cc520c84"/>
+          <timestamp value="2026-08-31T12:55:10+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://smart.who.int/trust-phw/CodeSystem/HL.TYPE|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/HL.TYPE"/>
+            <code value="vhl"/>
+            <display value="Verifiable Health Link"/>
+          </contains>
+          <contains>
+            <system value="http://smart.who.int/trust-phw/CodeSystem/HL.TYPE"/>
+            <code value="shl"/>
+            <display value="Smart Health Link"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

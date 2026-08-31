@@ -1,0 +1,372 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.displays.json",
+  "title": "DVC - Vaccines Display Values",
+  "description": "Display values for DVC - Vaccines ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://id.who.int/icd/release/11/mms#XM4639": {
+      "en": "Tuberculosis vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8142": {
+      "en": "Tuberculosis, live attenuated vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM29K4": {
+      "en": "Cholera vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM3Z26": {
+      "en": "Cholera, inactivated, whole cell vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM72A0": {
+      "en": "Cholera, live attenuated vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1FT6": {
+      "en": "Cholera, combinations with typhoid vaccine, inactivated, whole cell vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8AW3": {
+      "en": "Diphtheria vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9744": {
+      "en": "Diphtheria, rubella, tetanus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM31Q8": {
+      "en": "Tetanus, diphtheria, acellular pertussis"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8AW1": {
+      "en": "Diphtheria, poliomyelitis, tetanus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM09Q7": {
+      "en": "Diphtheria, pertussis, poliomyelitis, tetanus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM41N3": {
+      "en": "Diphtheria, hepatitis B, pertussis, tetanus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1LX9": {
+      "en": "Diphtheria, hemophilus influenzae B, pertussis, poliomyelitis, tetanus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM3G68": {
+      "en": "Diphtheria, hepatitis B, tetanus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0LT9": {
+      "en": "Diphtheria, pertussis, poliomyelitis, tetanus, hepatitis B vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM7JP3": {
+      "en": "Diphtheria, hemophilus influenzae B, pertussis, tetanus, hepatitis B vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5XP9": {
+      "en": "Diphtheria, hemophilus influenzae B, pertussis, tetanus-hepatitis B, meningococcus A + C vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1G86": {
+      "en": "Tetanus toxoid, combinations with diphtheria toxoid vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM32Q5": {
+      "en": "Tetanus and diphtheria vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM2CV8": {
+      "en": "Vaccines pertussis with diphtheria"
+    },
+    "http://id.who.int/icd/release/11/mms#XM21E6": {
+      "en": "Diphtheria tetanus, acellular pertussis, inactivated polio virus, haemophilus Influenzae type B vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM84S1": {
+      "en": "Diphtheria, hepatitis B, tetanus, acellular pertussis, inactivated polio virus, haemophilus Influenzae type B vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9JP8": {
+      "en": "Diphtheria, tetanus, acellular pertussis, inactivated polio virus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM46V1": {
+      "en": "Diphtheria vaccines combination including pertussis"
+    },
+    "http://id.who.int/icd/release/11/mms#XM4039": {
+      "en": "Vaccines diphtheria with tetanus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM11V3": {
+      "en": "Haemophilus influenzae B vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM01H1": {
+      "en": "Hemophilus influenzae B and poliomyelitis vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM32L7": {
+      "en": "Hemophilus influenzae B and hepatitis B vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM6LL6": {
+      "en": "Hepatitis vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM2A12": {
+      "en": "Hepatitis A, inactivated, whole virus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM3JA6": {
+      "en": "Typhoid, hepatitis A vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM03Y7": {
+      "en": "Combinations hepatitis vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9V38": {
+      "en": "Hepatitis B, purified antigen"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9QP0": {
+      "en": "Papillomavirus vaccine"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1821": {
+      "en": "Papillomavirus (human types 6,11,16,18)"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9BT4": {
+      "en": "Papillomavirus (human types 16,18)"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5CE9": {
+      "en": "Papillomavirus (human types 6,11,16,18,31,33,45,52,58)"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0LB5": {
+      "en": "Encephalitis, Japanese, inactivated, whole virus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM47S0": {
+      "en": "Encephalitis, Japanese, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM28X5": {
+      "en": "Measles vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8L15": {
+      "en": "Measles, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8TF3": {
+      "en": "Measles, combinations with mumps and rubella, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM21H2": {
+      "en": "Measles, combinations with rubella, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM4AJ8": {
+      "en": "Measles, combinations with mumps, rubella and varicella, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9439": {
+      "en": "Measles, combinations with mumps, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM2WV4": {
+      "en": "Meningococcal vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM92B2": {
+      "en": "Meningococcal monovalent purified polysaccharides antigen vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5LC2": {
+      "en": "Meningococcal polyvalent purified polysaccharides antigen vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM18Y8": {
+      "en": "Meningococcus C, purified polysaccharides antigen conjugated vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM2280": {
+      "en": "Meningococcus A, purified polysaccharides antigen conjugated vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9GJ1": {
+      "en": "Meningococcus B, outer membrane vesicle vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1X81": {
+      "en": "Meningococcus B, multicomponent vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM37L5": {
+      "en": "Meningococcus A, purified polysaccharides antigen vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1131": {
+      "en": "Mumps vaccine"
+    },
+    "http://id.who.int/icd/release/11/mms#XM2340": {
+      "en": "Mumps, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM3B09": {
+      "en": "Rubella, combinations with mumps, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM43M9": {
+      "en": "Pertussis vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM45L8": {
+      "en": "Pertussis, inactivated, whole cell vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM62J1": {
+      "en": "Pertussis, purified antigen vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM2TK2": {
+      "en": "Pertussis, inactivated, whole cell, combinations with toxoids vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM4082": {
+      "en": "Pertussis, purified antigen, combinations with toxoids vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9EM7": {
+      "en": "Pneumococcal vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9G97": {
+      "en": "Pneumococcal conjugate (13-valent) vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM2249": {
+      "en": "Pneumococcal polysaccharide 23-valent vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM91D7": {
+      "en": "Pneumococcus, purified polysaccharides antigen vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM96S7": {
+      "en": "Pneumococcus, purified polysaccharides antigen conjugated vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM4R39": {
+      "en": "Pneumococcus purified polysaccharides antigen and Haemophilus influenzae, conjugated vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0N50": {
+      "en": "Poliomyelitis vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5V19": {
+      "en": "Poliomyelitis, trivalent, inactivated, whole virus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM79H3": {
+      "en": "Poliomyelitis oral, bivalent, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0VX8": {
+      "en": "Poliomyelitis oral, monovalent live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0KZ1": {
+      "en": "Poliomyelitis oral, trivalent, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM6T09": {
+      "en": "Rabies vaccine"
+    },
+    "http://id.who.int/icd/release/11/mms#XM7BE8": {
+      "en": "Rabies, inactivated, whole virus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1CE0": {
+      "en": "Rotavirus diarrhoea vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM4GV0": {
+      "en": "Rota virus, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM4VG1": {
+      "en": "Rota virus, pentavalent, live, reassorted"
+    },
+    "http://id.who.int/icd/release/11/mms#XM7PP1": {
+      "en": "Rubella vaccine"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9PS9": {
+      "en": "Rubella, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1LR5": {
+      "en": "Influenza vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8857": {
+      "en": "Influenza vaccine, inactivated, whole virus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5V64": {
+      "en": "Influenza vaccines, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8MP2": {
+      "en": "Influenza vaccines, inactivated, split virus or surface antigen"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9E16": {
+      "en": "Influenza vaccines, virus like particle"
+    },
+    "http://id.who.int/icd/release/11/mms#XM33X8": {
+      "en": "Influenza, purified antigen"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5L44": {
+      "en": "Tetanus vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM29H5": {
+      "en": "Tetanus toxoid vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9AK2": {
+      "en": "Tetanus toxoid, combinations with tetanus immunoglobulin vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0RC1": {
+      "en": "Encephalitis vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8MP6": {
+      "en": "Encephalitis, tick borne, inactivated, whole virus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8BU8": {
+      "en": "Typhoid vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM33K4": {
+      "en": "Typhoid, oral, live attenuated vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM89G3": {
+      "en": "Typhoid, inactivated, whole cell vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM3SF6": {
+      "en": "Typhoid, purified polysaccharide antigen vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9UB1": {
+      "en": "Typhoid-paratyphoid vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM8DG3": {
+      "en": "Varicella zoster vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0NS8": {
+      "en": "Varicella, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0N24": {
+      "en": "Yellow fever vaccine"
+    },
+    "http://id.who.int/icd/release/11/mms#XM3418": {
+      "en": "Yellow fever, live attenuated"
+    },
+    "http://id.who.int/icd/release/11/mms#XM38G7": {
+      "en": "Dengue vaccine"
+    },
+    "http://id.who.int/icd/release/11/mms#XM68M6": {
+      "en": "COVID-19 vaccines"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0GQ8": {
+      "en": "COVID-19 vaccine, RNA based"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1NL1": {
+      "en": "COVID-19 vaccine, inactivated virus"
+    },
+    "http://id.who.int/icd/release/11/mms#XM1J92": {
+      "en": "COVID-19 vaccine, virus like particle"
+    },
+    "http://id.who.int/icd/release/11/mms#XM9QW8": {
+      "en": "COVID-19 vaccine, non-replicating viral vector"
+    },
+    "http://id.who.int/icd/release/11/mms#XM6AT1": {
+      "en": "COVID-19 vaccine, DNA based"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5JC5": {
+      "en": "COVID-19 vaccine, virus protein subunit"
+    },
+    "http://id.who.int/icd/release/11/mms#XM3CT4": {
+      "en": "Recombinant SARS-CoV-2 vaccine"
+    },
+    "http://id.who.int/icd/release/11/mms#XM0CX4": {
+      "en": "COVID-19 vaccine, replicating viral vector"
+    },
+    "http://id.who.int/icd/release/11/mms#XM5DF6": {
+      "en": "COVID-19 vaccine, live attenuated virus"
+    }
+  },
+  "fhir:valueSet": "http://smart.who.int/trust-phw/ValueSet/DVCVaccines",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2026-08-31T12:40:23.884691"
+}

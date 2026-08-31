@@ -1,0 +1,175 @@
+openapi: 3.0.3
+info:
+  title: v2 Identifier Type Schema API
+  description: JSON Schema for v2 Identifier Type ValueSet codes. Generated from FHIR
+    expansions.
+  version: 1.0.0
+paths:
+  /ValueSet-v2-0203.schema.json:
+    get:
+      summary: JSON Schema definition for the enumeration ValueSet-v2-0203
+      description: This endpoint serves the JSON Schema definition for the enumeration
+        ValueSet-v2-0203.
+      responses:
+        '200':
+          description: The JSON Schema for ValueSet-v2-0203
+          content:
+            application/schema+json:
+              schema:
+                $ref: ./ValueSet-v2-0203.schema.json
+components:
+  schemas:
+    ValueSet-v2-0203:
+      $schema: https://json-schema.org/draft/2020-12/schema
+      $id: http://terminology.hl7.org/ValueSet-v2-0203.schema.json
+      title: v2 Identifier Type Schema
+      description: JSON Schema for v2 Identifier Type ValueSet codes. Generated from
+        FHIR expansions.
+      type: string
+      enum:
+      - AC
+      - ACSN
+      - AIN
+      - AM
+      - AMA
+      - AN
+      - ANC
+      - AND
+      - ANON
+      - ANT
+      - APRN
+      - ASID
+      - BA
+      - BC
+      - BCFN
+      - BCT
+      - BR
+      - BRN
+      - BSNR
+      - CAAI
+      - CC
+      - CONM
+      - CY
+      - CZ
+      - DC
+      - DCFN
+      - DDS
+      - DEA
+      - DFN
+      - DI
+      - DL
+      - DN
+      - DO
+      - DP
+      - DPM
+      - DR
+      - DS
+      - DSG
+      - EI
+      - EN
+      - ESN
+      - FDR
+      - FDRFN
+      - FGN
+      - FI
+      - FILL
+      - GI
+      - GIN
+      - GKV
+      - GL
+      - GN
+      - HC
+      - IND
+      - IRISTEM
+      - JHN
+      - KZVA
+      - LACSN
+      - LANR
+      - LI
+      - L&I
+      - LN
+      - LR
+      - MA
+      - MB
+      - MC
+      - MCD
+      - MCN
+      - MCR
+      - MCT
+      - MD
+      - MI
+      - MR
+      - MRT
+      - MS
+      - NBSNR
+      - NCT
+      - NE
+      - NH
+      - NI
+      - NII
+      - NIIH
+      - NIIP
+      - NNxxx
+      - NP
+      - NPI
+      - OBI
+      - OD
+      - PA
+      - PC
+      - PCN
+      - PE
+      - PEN
+      - PGN
+      - PHC
+      - PHE
+      - PHO
+      - PI
+      - PIN
+      - PKV
+      - PLAC
+      - PN
+      - PNT
+      - PPIN
+      - PPN
+      - PRC
+      - PRN
+      - PT
+      - QA
+      - RI
+      - RN
+      - RPH
+      - RR
+      - RRI
+      - RRP
+      - SAMN
+      - SB
+      - SID
+      - SL
+      - SN
+      - SNBSN
+      - SNO
+      - SP
+      - SR
+      - SRX
+      - SS
+      - STN
+      - TAX
+      - TN
+      - TPR
+      - TRL
+      - U
+      - UDI
+      - UPIN
+      - USID
+      - VN
+      - VP
+      - VS
+      - WC
+      - WCN
+      - WP
+      - XV
+      - XX
+      - ZANR
+      fhir:valueSet: http://terminology.hl7.org/ValueSet/v2-0203
+      fhir:version: '2.9'
+      fhir:expansionTimestamp: '2025-09-04T09:30:01+00:00'

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ICVP.Core.ConceptMap"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ICVP.Core.ConceptMap</b></p><a name="ICVP.Core.ConceptMap"> </a><a name="hcICVP.Core.ConceptMap"> </a><p>This mapping does not specify any particular context of use.</p><br/><p><b>Group 1 </b>Mapping from <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a> to <a href="http://hl7.org/fhir/R5/codesystem-administrative-gender.html">AdministrativeGender</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>ICVP.A9.DE.4 (Male)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>male</td></tr><tr><td>ICVP.A9.DE.5 (Female)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>female</td></tr><tr><td>ICVP.A9.DE.6 (Other)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>other</td></tr><tr><td>ICVP.A9.DE.7 (Unknown)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>unknown</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href="http://hl7.org/fhir/R5/codesystem-administrative-gender.html">AdministrativeGender</a> to <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>male</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.4 (Male)</td></tr><tr><td>female</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.5 (Female)</td></tr><tr><td>other</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>ICVP.A9.DE.6 (Other)</td></tr><tr><td>unknown</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.7 (Unknown)</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a> to <a href="http://terminology.hl7.org/6.4.0/CodeSystem-ICD11MMS.html">International Classification of Diseases, 11th Revision Mortality and Morbidity Statistics (MMS)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>ICVP.A9.DE.4 (Male)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>XX2UQ8</td></tr><tr><td>ICVP.A9.DE.5 (Female)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>XX2V25</td></tr><tr><td>ICVP.A9.DE.6 (Other)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>XX45B7</td></tr><tr><td>ICVP.A9.DE.7 (Unknown)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>XX2PX3</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <a href="http://terminology.hl7.org/6.4.0/CodeSystem-ICD11MMS.html">International Classification of Diseases, 11th Revision Mortality and Morbidity Statistics (MMS)</a> to <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>XX2UQ8</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.4 (Male)</td></tr><tr><td>XX2V25</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.5 (Female)</td></tr><tr><td>XX45B7</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>ICVP.A9.DE.6 (Other)</td></tr><tr><td>XX2PX3</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.7 (Unknown)</td></tr></table><hr/><p><b>Group 5 </b>Mapping from <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a> to <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>ICVP.A9.DE.1 (Name of the recipient of vaccine or prophylaxis)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>87226-7 (Legal name of patient - first and last)</td></tr><tr><td>ICVP.A9.DE.2 (Date of Birth)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>21112-8 (Birth date)</td></tr><tr><td>ICVP.A9.DE.4 (Male)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>11433-0 (Physical findings of Male genitalia)</td></tr><tr><td>ICVP.A9.DE.5 (Female)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>11432-2 (Physical findings of Female genitalia)</td></tr><tr><td>ICVP.A9.DE.6 (Other)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>11431-4 (Physical findings of Genitalia)</td></tr><tr><td>ICVP.A9.DE.8 (Nationality)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>69433-1 (Citizenship status)</td></tr><tr><td>ICVP.A9.DE.9 (National identification document, if applicable)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>76435-7 (Patient identifier)</td></tr><tr><td>ICVP.A9.DE.10 (Name of the parent or guardian)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>79183-0 (First name of Guardian or legally authorized representative)</td></tr><tr><td>ICVP.C5.DE.11 (Vaccine or prophylaxis)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>39236-5 (Vaccine code (CPT) CPHS)</td></tr><tr><td>ICVP.C5.DE.12 (Name of disease or condition)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>39236-5 (Vaccine code (CPT) CPHS)</td></tr><tr><td>ICVP.C5.DE.13 (Date)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>30952-6 (Date and time of vaccination)</td></tr><tr><td>ICVP.C5.DE.16 (Manufacturer of vaccine or prophylaxis)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>30957-5 (Manufacturer name [Identifier] Vaccine)</td></tr><tr><td>ICVP.C5.DE.18 (Batch number (string))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>30959-1 (Lot number [Identifier] Vaccine)</td></tr><tr><td>ICVP.C5.DE.19 (Batch number (coded))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>30959-1 (Lot number [Identifier] Vaccine)</td></tr></table><hr/><p><b>Group 6 </b>Mapping from <a href="http://terminology.hl7.org/6.4.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a> to <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>87226-7 (Legal name of patient - first and last)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.1 (Name of the recipient of vaccine or prophylaxis)</td></tr><tr><td>21112-8 (Birth date)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.2 (Date of Birth)</td></tr><tr><td>11433-0 (Physical findings of Male genitalia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.4 (Male)</td></tr><tr><td>11432-2 (Physical findings of Female genitalia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.5 (Female)</td></tr><tr><td>11431-4 (Physical findings of Genitalia)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>ICVP.A9.DE.6 (Other)</td></tr><tr><td>69433-1 (Citizenship status)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>ICVP.A9.DE.8 (Nationality)</td></tr><tr><td>76435-7 (Patient identifier)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>ICVP.A9.DE.9 (National identification document, if applicable)</td></tr><tr><td>79183-0 (First name of Guardian or legally authorized representative)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>ICVP.A9.DE.10 (Name of the parent or guardian)</td></tr><tr><td>39236-5 (Vaccine code (CPT) CPHS)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.C5.DE.11 (Vaccine or prophylaxis)</td></tr><tr><td>30952-6 (Date and time of vaccination)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>ICVP.C5.DE.13 (Date)</td></tr><tr><td>30957-5 (Manufacturer name [Identifier] Vaccine)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.C5.DE.16 (Manufacturer of vaccine or prophylaxis)</td></tr><tr><td>30959-1 (Lot number [Identifier] Vaccine)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.C5.DE.18 (Batch number (string))</td></tr></table><hr/><p><b>Group 7 </b>Mapping from <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a> to <code>http://snomed.info/sct</code> (SNOMED CT International Edition)</p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>ICVP.A9.DE.2 (Date of Birth)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>184099003 (Date of birth)</td></tr><tr><td>ICVP.A9.DE.4 (Male)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>248153007 (Male)</td></tr><tr><td>ICVP.A9.DE.5 (Female)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>248152002 (Female)</td></tr><tr><td>ICVP.A9.DE.6 (Other)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>32570691000036108 (Intersex)</td></tr><tr><td>ICVP.A9.DE.7 (Unknown)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>184115007 (Patient sex unknown)</td></tr><tr><td>ICVP.A9.DE.8 (Nationality)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>223369002 (Country)</td></tr><tr><td>ICVP.A9.DE.9 (National identification document, if applicable)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>900000000000474003 (UUID)</td></tr><tr><td>ICVP.A9.DE.10 (Name of the parent or guardian)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>394619001 (Guardian)</td></tr><tr><td>ICVP.C5.DE.11 (Vaccine or prophylaxis)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>787859002 (Vaccine product)</td></tr></table><hr/><p><b>Group 8 </b>Mapping from <code>http://snomed.info/sct</code> (SNOMED CT International Edition) to <a href="CodeSystem-ICVP.Core.html">ICVP.Core CodeSystem for Data Elements</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>184099003 (Date of birth)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.2 (Date of Birth)</td></tr><tr><td>248153007 (Male)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.4 (Male)</td></tr><tr><td>248152002 (Female)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.5 (Female)</td></tr><tr><td>32570691000036108 (Intersex)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-narrower-than-target" title="source-is-narrower-than-target">is narrower than</a></td><td>ICVP.A9.DE.6 (Other)</td></tr><tr><td>184115007 (Patient sex unknown)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.A9.DE.7 (Unknown)</td></tr><tr><td>223369002 (Country)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>ICVP.A9.DE.8 (Nationality)</td></tr><tr><td>900000000000474003 (UUID)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>ICVP.A9.DE.9 (National identification document, if applicable)</td></tr><tr><td>394619001 (Guardian)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-source-is-broader-than-target" title="source-is-broader-than-target">is broader than</a></td><td>ICVP.A9.DE.10 (Name of the parent or guardian)</td></tr><tr><td>787859002 (Vaccine product)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#concept-map-relationship-equivalent" title="equivalent">is equivalent to</a></td><td>ICVP.C5.DE.11 (Vaccine or prophylaxis)</td></tr></table></div>
+  </text>
+  <url value="http://smart.who.int/trust-phw/ConceptMap/ICVP.Core.ConceptMap"/>
+  <version value="0.1.0"/>
+  <name value="ICVP_Core_ConceptMap"/>
+  <title value="ConceptMap to and from ICVP.Core Data Elements"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-04-10"/>
+  <publisher value="WHO"/>
+  <contact>
+    <name value="WHO"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://who.int"/>
+    </telecom>
+  </contact>
+  <description value="Mapping to and from ICVP.Core Data Dictionary to other code systems."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <target value="http://hl7.org/fhir/administrative-gender"/>
+    <element>
+      <code value="ICVP.A9.DE.4"/>
+      <target>
+        <code value="male"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.5"/>
+      <target>
+        <code value="female"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.6"/>
+      <target>
+        <code value="other"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.7"/>
+      <target>
+        <code value="unknown"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/administrative-gender"/>
+    <target value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <element>
+      <code value="male"/>
+      <target>
+        <code value="ICVP.A9.DE.4"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="female"/>
+      <target>
+        <code value="ICVP.A9.DE.5"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="other"/>
+      <target>
+        <code value="ICVP.A9.DE.6"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="unknown"/>
+      <target>
+        <code value="ICVP.A9.DE.7"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <target value="http://id.who.int/icd/release/11/mms"/>
+    <element>
+      <code value="ICVP.A9.DE.4"/>
+      <target>
+        <code value="XX2UQ8"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.5"/>
+      <target>
+        <code value="XX2V25"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.6"/>
+      <target>
+        <code value="XX45B7"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.7"/>
+      <target>
+        <code value="XX2PX3"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://id.who.int/icd/release/11/mms"/>
+    <target value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <element>
+      <code value="XX2UQ8"/>
+      <target>
+        <code value="ICVP.A9.DE.4"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="XX2V25"/>
+      <target>
+        <code value="ICVP.A9.DE.5"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="XX45B7"/>
+      <target>
+        <code value="ICVP.A9.DE.6"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="XX2PX3"/>
+      <target>
+        <code value="ICVP.A9.DE.7"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <target value="http://loinc.org"/>
+    <element>
+      <code value="ICVP.A9.DE.1"/>
+      <target>
+        <code value="87226-7"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.2"/>
+      <target>
+        <code value="21112-8"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.4"/>
+      <target>
+        <code value="11433-0"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.5"/>
+      <target>
+        <code value="11432-2"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.6"/>
+      <target>
+        <code value="11431-4"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.8"/>
+      <target>
+        <code value="69433-1"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.9"/>
+      <target>
+        <code value="76435-7"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.10"/>
+      <target>
+        <code value="79183-0"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.C5.DE.11"/>
+      <target>
+        <code value="39236-5"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.C5.DE.12"/>
+      <target>
+        <code value="39236-5"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.C5.DE.13"/>
+      <target>
+        <code value="30952-6"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.C5.DE.16"/>
+      <target>
+        <code value="30957-5"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.C5.DE.18"/>
+      <target>
+        <code value="30959-1"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.C5.DE.19"/>
+      <target>
+        <code value="30959-1"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://loinc.org"/>
+    <target value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <element>
+      <code value="87226-7"/>
+      <target>
+        <code value="ICVP.A9.DE.1"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="21112-8"/>
+      <target>
+        <code value="ICVP.A9.DE.2"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="11433-0"/>
+      <target>
+        <code value="ICVP.A9.DE.4"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="11432-2"/>
+      <target>
+        <code value="ICVP.A9.DE.5"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="11431-4"/>
+      <target>
+        <code value="ICVP.A9.DE.6"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="69433-1"/>
+      <target>
+        <code value="ICVP.A9.DE.8"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="76435-7"/>
+      <target>
+        <code value="ICVP.A9.DE.9"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="79183-0"/>
+      <target>
+        <code value="ICVP.A9.DE.10"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="39236-5"/>
+      <target>
+        <code value="ICVP.C5.DE.11"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="30952-6"/>
+      <target>
+        <code value="ICVP.C5.DE.13"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="30957-5"/>
+      <target>
+        <code value="ICVP.C5.DE.16"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="30959-1"/>
+      <target>
+        <code value="ICVP.C5.DE.18"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <target value="http://snomed.info/sct"/>
+    <element>
+      <code value="ICVP.A9.DE.2"/>
+      <target>
+        <code value="184099003"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.4"/>
+      <target>
+        <code value="248153007"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.5"/>
+      <target>
+        <code value="248152002"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.6"/>
+      <target>
+        <code value="32570691000036108"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.7"/>
+      <target>
+        <code value="184115007"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.8"/>
+      <target>
+        <code value="223369002"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.9"/>
+      <target>
+        <code value="900000000000474003"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.A9.DE.10"/>
+      <target>
+        <code value="394619001"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="ICVP.C5.DE.11"/>
+      <target>
+        <code value="787859002"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://snomed.info/sct"/>
+    <target value="http://smart.who.int/trust-phw/CodeSystem/ICVP.Core"/>
+    <element>
+      <code value="184099003"/>
+      <target>
+        <code value="ICVP.A9.DE.2"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="248153007"/>
+      <target>
+        <code value="ICVP.A9.DE.4"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="248152002"/>
+      <target>
+        <code value="ICVP.A9.DE.5"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="32570691000036108"/>
+      <target>
+        <code value="ICVP.A9.DE.6"/>
+        <relationship value="source-is-narrower-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="184115007"/>
+      <target>
+        <code value="ICVP.A9.DE.7"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="223369002"/>
+      <target>
+        <code value="ICVP.A9.DE.8"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="900000000000474003"/>
+      <target>
+        <code value="ICVP.A9.DE.9"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="394619001"/>
+      <target>
+        <code value="ICVP.A9.DE.10"/>
+        <relationship value="source-is-broader-than-target"/>
+      </target>
+    </element>
+    <element>
+      <code value="787859002"/>
+      <target>
+        <code value="ICVP.C5.DE.11"/>
+        <relationship value="equivalent"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"DVCMinVaccineDetails","DVCMinVaccineDetails","","","",0,*,"","","","null {[]} {[]}
+","DVC HCERT Payload for PreQual DB","DVC payload for a minimal DVC for use within an HCERT Payload using the WHO PreQual Vaccine Database","","","","","","","","","",,,,,"",,,,"Base",0,*,"","must-have-issuer-or-clinician-name:Either issuer or clinicianName must be present {is.exists() or cn.exists()}
+","n/a"
+"DVCMinVaccineDetails.vp","DVCMinVaccineDetails.vp","","","",1,1,"","","","code {[]} {[]}
+","Vaccine Product ID","Vaccine Product ID","","","","","","","","","",,"required","","http://smart.who.int/pcmt-vaxprequal/ValueSet/PreQualProductIds","http://smart.who.int/trust-phw/CodeSystem/ICVP.Core#ICVP.C5.DE.11
+http://loinc.org#39236-5 (Vaccine code)http://snomed.info/sct#787859002 (Vaccine product (medicinal product))",,,,"DVCMinVaccineDetails.vp",1,1,"",""
+"DVCMinVaccineDetails.dv","DVCMinVaccineDetails.dv","","","",1,1,"","","","date {[]} {[]}
+","Date of vaccination","Date of vaccination","","","","","","","","","",,,,,"http://smart.who.int/trust-phw/CodeSystem/ICVP.Core#ICVP.C5.DE.13
+http://loinc.org#30952-6 (Date and time of vaccination)",,,,"DVCMinVaccineDetails.dv",1,1,"",""
+"DVCMinVaccineDetails.cn","DVCMinVaccineDetails.cn","","","",0,1,"","","","string {[]} {[]}
+","Name of supervising clinician","Name of supervising clinician","","","","","","","","","",,,,,"http://smart.who.int/trust-phw/CodeSystem/ICVP.Core#ICVP.C5.DE.14
+",,,,"DVCMinVaccineDetails.cn",0,1,"",""
+"DVCMinVaccineDetails.is","DVCMinVaccineDetails.is","","","",0,1,"","","","id {[]} {[]}
+","Certificate issuer id (referenced organization)","Certificate issuer id (referenced organization)","","","","","","","","","",,,,,"http://smart.who.int/trust-phw/CodeSystem/ICVP.Core#ICVP.C5.DE.15
+",,,,"DVCMinVaccineDetails.is",0,1,"",""
+"DVCMinVaccineDetails.bo","DVCMinVaccineDetails.bo","","","",1,1,"","","","string {[]} {[]}
+","Batch No","Batch No","","","","","","","","","",,,,,"http://smart.who.int/trust-phw/CodeSystem/ICVP.Core#ICVP.C5.DE.17
+http://loinc.org#30959-1 (Lot number [Identifier] Vaccine)",,,,"DVCMinVaccineDetails.bo",1,1,"",""

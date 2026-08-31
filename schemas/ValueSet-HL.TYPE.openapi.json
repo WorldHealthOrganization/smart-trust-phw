@@ -1,0 +1,48 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "HL.TYPE ValueSet  Schema API",
+    "description": "JSON Schema for HL.TYPE ValueSet  ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HL.TYPE.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HL.TYPE",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HL.TYPE.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HL.TYPE",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HL.TYPE.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HL.TYPE": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/trust-phw/ValueSet-HL.TYPE.schema.json",
+        "title": "HL.TYPE ValueSet  Schema",
+        "description": "JSON Schema for HL.TYPE ValueSet  ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/trust-phw/CodeSystem/HL.TYPE#vhl",
+          "http://smart.who.int/trust-phw/CodeSystem/HL.TYPE#shl"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the HL.TYPE ValueSet  ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/trust-phw/ValueSet-HL.TYPE.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/trust-phw/ValueSet-HL.TYPE.displays.json",
+        "fhir:valueSet": "http://smart.who.int/trust-phw/ValueSet/HL.TYPE",
+        "fhir:version": "0.1.0",
+        "fhir:expansionTimestamp": "2026-08-31T12:55:34.570783"
+      }
+    }
+  }
+}

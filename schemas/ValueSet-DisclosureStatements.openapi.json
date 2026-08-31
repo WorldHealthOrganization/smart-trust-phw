@@ -1,0 +1,59 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Disclosure Statements Schema API",
+    "description": "JSON Schema for Disclosure Statements ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-DisclosureStatements.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-DisclosureStatements",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-DisclosureStatements.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-DisclosureStatements",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-DisclosureStatements.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-DisclosureStatements": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.schema.json",
+        "title": "Disclosure Statements Schema",
+        "description": "JSON Schema for Disclosure Statements ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-narrative",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-demographic",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-demographic-narrative",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-demographic-name",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-demographic-sex",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-demographic-dob",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-demographic-nationality",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-demographic-national-id",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-vaccination",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-vaccination-narrative",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-vaccination-clinician",
+          "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements#disclose-icvp-vaccination-issuer"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Disclosure Statements ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.displays.json",
+        "fhir:valueSet": "http://smart.who.int/trust-phw/ValueSet/DisclosureStatements",
+        "fhir:version": "0.1.0",
+        "fhir:expansionTimestamp": "2026-08-31T12:55:34.570597"
+      }
+    }
+  }
+}
