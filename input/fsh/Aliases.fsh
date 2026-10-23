@@ -2,6 +2,7 @@ Alias: $LOINC = http://loinc.org
 Alias: $ICD11 = http://id.who.int/icd/release/11/mms
 Alias: $SCT = http://snomed.info/sct
 Alias: $GENDER = http://hl7.org/fhir/administrative-gender
+Alias: $GENDER_VS = http://hl7.org/fhir/ValueSet/administrative-gender
 
 
 Alias: $pubStatus = http://hl7.org/fhir/publication-status

@@ -11,7 +11,7 @@ Description:     "Minimal DVC payload for use within an HCERT Payload"
   * ^code[+] = $LOINC#21112-8 "Birth date"
   * ^code[+] = $SCT#184099003 "Date of birth (observable entity)"
 * s 1..1 code "Sex"
-* s from $GENDER (extensible)
+* s from $GENDER_VS (extensible)
   * ^code[+] = $ICVPCore#ICVP.A9.DE.3
 * nt 1..1 code "Nationality"
 * nt from $countryVS (extensible)
