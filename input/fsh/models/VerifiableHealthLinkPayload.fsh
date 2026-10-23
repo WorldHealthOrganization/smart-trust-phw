@@ -9,7 +9,10 @@ Characteristics: #can-be-target
 //* ^url = "https://profiles.ihe.net/ITI/VHL/StructureDefinition/VerifiableHealthLinkPayload"
 * ^version = "RC2"
 * ^status = #active
-* type 1..1
+// type is optional so that the payload matches the SMART Health Links payload
+// format, as the IHE ITI VHL profile uses it. It is absent when the payload is
+// carried at HCERT claim key 5, which already identifies a VHL.
+* type 0..1
 * type from HL_TYPE (preferred)
 /* obeys is-a-verifiable-health-link
 
