@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GraphDefinition xmlns="http://hl7.org/fhir">
+  <id value="GenerateVHL"/>
+  <meta>
+    <profile value="http://smart.who.int/base/StructureDefinition/SGTransaction"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: GraphDefinition GenerateVHL</b></p><a name="GenerateVHL"> </a><a name="hcGenerateVHL"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/StructureDefinition-SGTransaction.html">SGTransaction</a></p></div><blockquote><p><b>Extension Definition for GraphDefinition.node for Version 5.0</b></p><ul><li>nodeId: source</li><li>type: ActorDefinition</li><li>http://smart.who.int/base/StructureDefinition/SGActorExt: <a href="ActorDefinition-Holder.html">ActorDefinition Holder</a></li></ul></blockquote><blockquote><p><b>Extension Definition for GraphDefinition.node for Version 5.0</b></p><ul><li>nodeId: target</li><li>type: ActorDefinition</li><li>http://smart.who.int/base/StructureDefinition/SGActorExt: <a href="ActorDefinition-Issuer.html">ActorDefinition Issuer</a></li></ul></blockquote><p><b>name</b>: GenerateVHL</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>publisher</b>: WHO</p><p><b>description</b>: </p><div><p>A Holder requests an Issuer to generate a VHL</p>
+</div><p><b>start</b>: ActorDefinition</p><blockquote><p><b>link</b></p><blockquote><p><b>SGDocumentation</b></p><ul><li>http://smart.who.int/base/StructureDefinition/SGcode: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/CodeSystem-DocumentationSections.html#DocumentationSections-request-trigger">Smart Guidelines Documentation Section request-trigger</a>: Request Trigger Events</li><li>http://smart.who.int/base/StructureDefinition/SGMarkdown: </li></ul></blockquote><div><p>A Holder wishes to request a VHL from an Issuer.</p>
+<p>Optionally: The holder has selected consent and selective disclosure directives.</p>
+</div><blockquote><p><b>SGDocumentation</b></p><ul><li>http://smart.who.int/base/StructureDefinition/SGcode: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/CodeSystem-DocumentationSections.html#DocumentationSections-request-semantics">Smart Guidelines Documentation Section request-semantics</a>: Request Message Semantics</li><li>http://smart.who.int/base/StructureDefinition/SGMarkdown: </li></ul></blockquote><div><p>none defined. up to a content profile to define</p>
+</div><blockquote><p><b>SGDocumentation</b></p><ul><li>http://smart.who.int/base/StructureDefinition/SGcode: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/CodeSystem-DocumentationSections.html#DocumentationSections-request-actions">Smart Guidelines Documentation Section request-actions</a>: Request Expected Actions</li><li>http://smart.who.int/base/StructureDefinition/SGMarkdown: </li></ul></blockquote><div><p>The Issuer will generate a VHL</p>
+</div><blockquote><p><b>SGDocumentation</b></p><ul><li>http://smart.who.int/base/StructureDefinition/SGcode: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/CodeSystem-DocumentationSections.html#DocumentationSections-response-trigger">Smart Guidelines Documentation Section response-trigger</a>: Response Trigger Events</li><li>http://smart.who.int/base/StructureDefinition/SGMarkdown: </li></ul></blockquote><div><p>Issuer has performed any necceasry document generation, digital signatures and has generated a VHL according to a content profile.</p>
+</div><blockquote><p><b>SGDocumentation</b></p><ul><li>http://smart.who.int/base/StructureDefinition/SGcode: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/CodeSystem-DocumentationSections.html#DocumentationSections-response-semantics">Smart Guidelines Documentation Section response-semantics</a>: Response Message Semantics</li><li>http://smart.who.int/base/StructureDefinition/SGMarkdown: </li></ul></blockquote><div><p>none defined. up to content profile to define</p>
+</div><blockquote><p><b>SGDocumentation</b></p><ul><li>http://smart.who.int/base/StructureDefinition/SGcode: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/CodeSystem-DocumentationSections.html#DocumentationSections-response-actions">Smart Guidelines Documentation Section response-actions</a>: Response Expected Actions</li><li>http://smart.who.int/base/StructureDefinition/SGMarkdown: </li></ul></blockquote><div><p>The Holder accepts the VHL for storage on wallet or other utilization</p>
+</div><blockquote><p><b>SGDocumentation</b></p><ul><li>http://smart.who.int/base/StructureDefinition/SGcode: <a href="https://build.fhir.org/ig/WorldHealthOrganization/smart-base/CodeSystem-DocumentationSections.html#DocumentationSections-security-considerations">Smart Guidelines Documentation Section security-considerations</a>: Security Considerations</li><li>http://smart.who.int/base/StructureDefinition/SGMarkdown: </li></ul></blockquote><div><p>Depends on the content profile</p>
+</div></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node">
+    <extension url="nodeId">
+      <valueId value="source"/>
+    </extension>
+    <extension url="type">
+      <valueCode value="ActorDefinition"/>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGActorExt">
+      <valueReference>
+        <reference value="ActorDefinition/Holder"/>
+      </valueReference>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node">
+    <extension url="nodeId">
+      <valueId value="target"/>
+    </extension>
+    <extension url="type">
+      <valueCode value="ActorDefinition"/>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGActorExt">
+      <valueReference>
+        <reference value="ActorDefinition/Issuer"/>
+      </valueReference>
+    </extension>
+  </extension>
+  <name value="GenerateVHL"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <publisher value="WHO"/>
+  <description value="A Holder requests an Issuer to generate a VHL"/>
+  <start value="ActorDefinition"/>
+  <link>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGDocumentation">
+      <extension url="http://smart.who.int/base/StructureDefinition/SGcode">
+        <valueCoding>
+          <system value="http://smart.who.int/base/CodeSystem/DocumentationSections"/>
+          <code value="request-trigger"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://smart.who.int/base/StructureDefinition/SGMarkdown">
+        <valueMarkdown value="A Holder wishes to request a VHL from an Issuer.&#xA;&#xA;Optionally: The holder has selected consent and selective disclosure directives. "/>
+      </extension>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGDocumentation">
+      <extension url="http://smart.who.int/base/StructureDefinition/SGcode">
+        <valueCoding>
+          <system value="http://smart.who.int/base/CodeSystem/DocumentationSections"/>
+          <code value="request-semantics"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://smart.who.int/base/StructureDefinition/SGMarkdown">
+        <valueMarkdown value="none defined. up to a content profile to define "/>
+      </extension>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGDocumentation">
+      <extension url="http://smart.who.int/base/StructureDefinition/SGcode">
+        <valueCoding>
+          <system value="http://smart.who.int/base/CodeSystem/DocumentationSections"/>
+          <code value="request-actions"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://smart.who.int/base/StructureDefinition/SGMarkdown">
+        <valueMarkdown value="The Issuer will generate a VHL"/>
+      </extension>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGDocumentation">
+      <extension url="http://smart.who.int/base/StructureDefinition/SGcode">
+        <valueCoding>
+          <system value="http://smart.who.int/base/CodeSystem/DocumentationSections"/>
+          <code value="response-trigger"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://smart.who.int/base/StructureDefinition/SGMarkdown">
+        <valueMarkdown value="Issuer has performed any necceasry document generation, digital signatures and has generated a VHL according to a content profile."/>
+      </extension>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGDocumentation">
+      <extension url="http://smart.who.int/base/StructureDefinition/SGcode">
+        <valueCoding>
+          <system value="http://smart.who.int/base/CodeSystem/DocumentationSections"/>
+          <code value="response-semantics"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://smart.who.int/base/StructureDefinition/SGMarkdown">
+        <valueMarkdown value="none defined. up to content profile to define "/>
+      </extension>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGDocumentation">
+      <extension url="http://smart.who.int/base/StructureDefinition/SGcode">
+        <valueCoding>
+          <system value="http://smart.who.int/base/CodeSystem/DocumentationSections"/>
+          <code value="response-actions"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://smart.who.int/base/StructureDefinition/SGMarkdown">
+        <valueMarkdown value="The Holder accepts the VHL for storage on wallet or other utilization"/>
+      </extension>
+    </extension>
+    <extension url="http://smart.who.int/base/StructureDefinition/SGDocumentation">
+      <extension url="http://smart.who.int/base/StructureDefinition/SGcode">
+        <valueCoding>
+          <system value="http://smart.who.int/base/CodeSystem/DocumentationSections"/>
+          <code value="security-considerations"/>
+        </valueCoding>
+      </extension>
+      <extension url="http://smart.who.int/base/StructureDefinition/SGMarkdown">
+        <valueMarkdown value="Depends on the content profile "/>
+      </extension>
+    </extension>
+  </link>
+</GraphDefinition>

@@ -1,0 +1,170 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "DVC - Vaccines Schema API",
+    "description": "JSON Schema for DVC - Vaccines ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-DVCVaccines.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-DVCVaccines",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-DVCVaccines.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-DVCVaccines",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-DVCVaccines.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-DVCVaccines": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.schema.json",
+        "title": "DVC - Vaccines Schema",
+        "description": "JSON Schema for DVC - Vaccines ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "type": "object",
+        "required": [
+          "system",
+          "code"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "system": {
+            "type": "string",
+            "const": "http://id.who.int/icd/release/11/mms"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "XM4639",
+              "XM8142",
+              "XM29K4",
+              "XM3Z26",
+              "XM72A0",
+              "XM1FT6",
+              "XM8AW3",
+              "XM9744",
+              "XM31Q8",
+              "XM8AW1",
+              "XM09Q7",
+              "XM41N3",
+              "XM1LX9",
+              "XM3G68",
+              "XM0LT9",
+              "XM7JP3",
+              "XM5XP9",
+              "XM1G86",
+              "XM32Q5",
+              "XM2CV8",
+              "XM21E6",
+              "XM84S1",
+              "XM9JP8",
+              "XM46V1",
+              "XM4039",
+              "XM11V3",
+              "XM01H1",
+              "XM32L7",
+              "XM6LL6",
+              "XM2A12",
+              "XM3JA6",
+              "XM03Y7",
+              "XM9V38",
+              "XM9QP0",
+              "XM1821",
+              "XM9BT4",
+              "XM5CE9",
+              "XM0LB5",
+              "XM47S0",
+              "XM28X5",
+              "XM8L15",
+              "XM8TF3",
+              "XM21H2",
+              "XM4AJ8",
+              "XM9439",
+              "XM2WV4",
+              "XM92B2",
+              "XM5LC2",
+              "XM18Y8",
+              "XM2280",
+              "XM9GJ1",
+              "XM1X81",
+              "XM37L5",
+              "XM1131",
+              "XM2340",
+              "XM3B09",
+              "XM43M9",
+              "XM45L8",
+              "XM62J1",
+              "XM2TK2",
+              "XM4082",
+              "XM9EM7",
+              "XM9G97",
+              "XM2249",
+              "XM91D7",
+              "XM96S7",
+              "XM4R39",
+              "XM0N50",
+              "XM5V19",
+              "XM79H3",
+              "XM0VX8",
+              "XM0KZ1",
+              "XM6T09",
+              "XM7BE8",
+              "XM1CE0",
+              "XM4GV0",
+              "XM4VG1",
+              "XM7PP1",
+              "XM9PS9",
+              "XM1LR5",
+              "XM8857",
+              "XM5V64",
+              "XM8MP2",
+              "XM9E16",
+              "XM33X8",
+              "XM5L44",
+              "XM29H5",
+              "XM9AK2",
+              "XM0RC1",
+              "XM8MP6",
+              "XM8BU8",
+              "XM33K4",
+              "XM89G3",
+              "XM3SF6",
+              "XM9UB1",
+              "XM8DG3",
+              "XM0NS8",
+              "XM0N24",
+              "XM3418",
+              "XM38G7",
+              "XM68M6",
+              "XM0GQ8",
+              "XM1NL1",
+              "XM1J92",
+              "XM9QW8",
+              "XM6AT1",
+              "XM5JC5",
+              "XM3CT4",
+              "XM0CX4",
+              "XM5DF6"
+            ]
+          }
+        },
+        "narrative": "This schema validates Coding-shaped objects for the DVC - Vaccines ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://smart.who.int/trust-phw/ValueSet-DVCVaccines.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.displays.json",
+        "fhir:valueSet": "http://smart.who.int/trust-phw/ValueSet/DVCVaccines",
+        "fhir:version": "0.1.0",
+        "fhir:expansionTimestamp": "2026-10-23T13:11:33+00:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs": "http://id.who.int/icd/release/11/mms"
+  },
+  "@id": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-10-23T09:01:06.934655Z",
+  "@graph": [
+    {
+      "id": "#XM4639",
+      "name": "Tuberculosis vaccines"
+    },
+    {
+      "id": "#XM8142",
+      "name": "Tuberculosis, live attenuated vaccines"
+    },
+    {
+      "id": "#XM29K4",
+      "name": "Cholera vaccines"
+    },
+    {
+      "id": "#XM3Z26",
+      "name": "Cholera, inactivated, whole cell vaccines"
+    },
+    {
+      "id": "#XM72A0",
+      "name": "Cholera, live attenuated vaccines"
+    },
+    {
+      "id": "#XM1FT6",
+      "name": "Cholera, combinations with typhoid vaccine, inactivated, whole cell vaccines"
+    },
+    {
+      "id": "#XM8AW3",
+      "name": "Diphtheria vaccines"
+    },
+    {
+      "id": "#XM9744",
+      "name": "Diphtheria, rubella, tetanus vaccines"
+    },
+    {
+      "id": "#XM31Q8",
+      "name": "Tetanus, diphtheria, acellular pertussis vaccines"
+    },
+    {
+      "id": "#XM8AW1",
+      "name": "Diphtheria, poliomyelitis, tetanus vaccines"
+    },
+    {
+      "id": "#XM09Q7",
+      "name": "Diphtheria, pertussis, poliomyelitis, tetanus vaccines"
+    },
+    {
+      "id": "#XM41N3",
+      "name": "Diphtheria, hepatitis B, pertussis, tetanus vaccines"
+    },
+    {
+      "id": "#XM1LX9",
+      "name": "Diphtheria, Haemophilus influenzae B, pertussis, poliomyelitis, tetanus vaccines"
+    },
+    {
+      "id": "#XM3G68",
+      "name": "Diphtheria, hepatitis B, tetanus vaccines"
+    },
+    {
+      "id": "#XM0LT9",
+      "name": "Diphtheria, pertussis, poliomyelitis, tetanus, hepatitis B vaccines"
+    },
+    {
+      "id": "#XM7JP3",
+      "name": "Diphtheria, Haemophilus influenzae B, pertussis, tetanus, hepatitis B vaccines"
+    },
+    {
+      "id": "#XM5XP9",
+      "name": "Diphtheria, Haemophilus influenzae B, pertussis, tetanus, hepatitis B, meningococcus A + C vaccines"
+    },
+    {
+      "id": "#XM1G86",
+      "name": "Tetanus toxoid, combinations with diphtheria toxoid vaccines"
+    },
+    {
+      "id": "#XM32Q5",
+      "name": "Tetanus and diphtheria vaccines"
+    },
+    {
+      "id": "#XM2CV8",
+      "name": "Vaccines pertussis with diphtheria"
+    },
+    {
+      "id": "#XM21E6",
+      "name": "Diphtheria tetanus, acellular pertussis, inactivated polio virus, Haemophilus Influenzae type B vaccines"
+    },
+    {
+      "id": "#XM84S1",
+      "name": "Diphtheria, hepatitis B, tetanus, acellular pertussis, inactivated polio virus, Haemophilus Influenzae type B vaccines"
+    },
+    {
+      "id": "#XM9JP8",
+      "name": "Diphtheria, tetanus, acellular pertussis, inactivated polio virus vaccines"
+    },
+    {
+      "id": "#XM46V1",
+      "name": "Diphtheria vaccines combination including pertussis"
+    },
+    {
+      "id": "#XM4039",
+      "name": "Vaccines diphtheria with tetanus"
+    },
+    {
+      "id": "#XM11V3",
+      "name": "Haemophilus influenzae B vaccines"
+    },
+    {
+      "id": "#XM01H1",
+      "name": "Haemophilus influenzae B and poliomyelitis vaccines"
+    },
+    {
+      "id": "#XM32L7",
+      "name": "Haemophilus influenzae B and hepatitis B vaccines"
+    },
+    {
+      "id": "#XM6LL6",
+      "name": "Hepatitis vaccines"
+    },
+    {
+      "id": "#XM2A12",
+      "name": "Hepatitis A, inactivated, whole virus"
+    },
+    {
+      "id": "#XM3JA6",
+      "name": "Typhoid, hepatitis A vaccines"
+    },
+    {
+      "id": "#XM03Y7",
+      "name": "Combinations hepatitis vaccines"
+    },
+    {
+      "id": "#XM9V38",
+      "name": "Hepatitis B, purified antigen"
+    },
+    {
+      "id": "#XM9QP0",
+      "name": "Papillomavirus vaccines"
+    },
+    {
+      "id": "#XM1821",
+      "name": "Papillomavirus (human types 6,11,16,18)"
+    },
+    {
+      "id": "#XM9BT4",
+      "name": "Papillomavirus (human types 16,18)"
+    },
+    {
+      "id": "#XM5CE9",
+      "name": "Papillomavirus (human types 6,11,16,18,31,33,45,52,58)"
+    },
+    {
+      "id": "#XM0LB5",
+      "name": "Encephalitis, Japanese, inactivated, whole virus"
+    },
+    {
+      "id": "#XM47S0",
+      "name": "Encephalitis, Japanese, live attenuated"
+    },
+    {
+      "id": "#XM28X5",
+      "name": "Measles vaccines"
+    },
+    {
+      "id": "#XM8L15",
+      "name": "Measles, live attenuated"
+    },
+    {
+      "id": "#XM8TF3",
+      "name": "Measles, combinations with mumps and rubella, live attenuated"
+    },
+    {
+      "id": "#XM21H2",
+      "name": "Measles, combinations with rubella, live attenuated"
+    },
+    {
+      "id": "#XM4AJ8",
+      "name": "Measles, combinations with mumps, rubella and varicella, live attenuated"
+    },
+    {
+      "id": "#XM9439",
+      "name": "Measles, combinations with mumps, live attenuated"
+    },
+    {
+      "id": "#XM2WV4",
+      "name": "Meningococcal vaccines"
+    },
+    {
+      "id": "#XM92B2",
+      "name": "Meningococcal monovalent purified polysaccharides antigen vaccines"
+    },
+    {
+      "id": "#XM5LC2",
+      "name": "Meningococcal polyvalent purified polysaccharides antigen vaccines"
+    },
+    {
+      "id": "#XM18Y8",
+      "name": "Meningococcus C, purified polysaccharides antigen conjugated vaccines"
+    },
+    {
+      "id": "#XM2280",
+      "name": "Meningococcus A, purified polysaccharides antigen conjugated vaccines"
+    },
+    {
+      "id": "#XM9GJ1",
+      "name": "Meningococcus B, outer membrane vesicle vaccines"
+    },
+    {
+      "id": "#XM1X81",
+      "name": "Meningococcus B, multicomponent vaccines"
+    },
+    {
+      "id": "#XM37L5",
+      "name": "Meningococcus A, purified polysaccharides antigen vaccines"
+    },
+    {
+      "id": "#XM1131",
+      "name": "Mumps vaccines"
+    },
+    {
+      "id": "#XM2340",
+      "name": "Mumps, live attenuated"
+    },
+    {
+      "id": "#XM3B09",
+      "name": "Rubella, combinations with mumps, live attenuated"
+    },
+    {
+      "id": "#XM43M9",
+      "name": "Pertussis vaccines"
+    },
+    {
+      "id": "#XM45L8",
+      "name": "Pertussis, inactivated, whole cell vaccines"
+    },
+    {
+      "id": "#XM62J1",
+      "name": "Pertussis, purified antigen vaccines"
+    },
+    {
+      "id": "#XM2TK2",
+      "name": "Pertussis, inactivated, whole cell, combinations with toxoids vaccines"
+    },
+    {
+      "id": "#XM4082",
+      "name": "Pertussis, purified antigen, combinations with toxoids vaccines"
+    },
+    {
+      "id": "#XM9EM7",
+      "name": "Pneumococcal vaccines"
+    },
+    {
+      "id": "#XM9G97",
+      "name": "Pneumococcal conjugate (13-valent) vaccines"
+    },
+    {
+      "id": "#XM2249",
+      "name": "Pneumococcal polysaccharide 23-valent vaccines"
+    },
+    {
+      "id": "#XM91D7",
+      "name": "Pneumococcus, purified polysaccharides antigen vaccines"
+    },
+    {
+      "id": "#XM96S7",
+      "name": "Pneumococcus, purified polysaccharides antigen conjugated vaccines"
+    },
+    {
+      "id": "#XM4R39",
+      "name": "Pneumococcus purified polysaccharides antigen and Haemophilus influenzae, conjugated vaccines"
+    },
+    {
+      "id": "#XM0N50",
+      "name": "Poliomyelitis vaccines"
+    },
+    {
+      "id": "#XM5V19",
+      "name": "Poliomyelitis, trivalent, inactivated, whole virus"
+    },
+    {
+      "id": "#XM79H3",
+      "name": "Poliomyelitis oral, bivalent, live attenuated"
+    },
+    {
+      "id": "#XM0VX8",
+      "name": "Poliomyelitis oral, monovalent live attenuated"
+    },
+    {
+      "id": "#XM0KZ1",
+      "name": "Poliomyelitis oral, trivalent, live attenuated"
+    },
+    {
+      "id": "#XM6T09",
+      "name": "Rabies vaccines"
+    },
+    {
+      "id": "#XM7BE8",
+      "name": "Rabies, inactivated, whole virus"
+    },
+    {
+      "id": "#XM1CE0",
+      "name": "Rotavirus diarrhoea vaccines"
+    },
+    {
+      "id": "#XM4GV0",
+      "name": "Rota virus, live attenuated"
+    },
+    {
+      "id": "#XM4VG1",
+      "name": "Rota virus, pentavalent, live, reassorted"
+    },
+    {
+      "id": "#XM7PP1",
+      "name": "Rubella vaccines"
+    },
+    {
+      "id": "#XM9PS9",
+      "name": "Rubella, live attenuated"
+    },
+    {
+      "id": "#XM1LR5",
+      "name": "Influenza vaccines"
+    },
+    {
+      "id": "#XM8857",
+      "name": "Influenza vaccines, inactivated, whole virus"
+    },
+    {
+      "id": "#XM5V64",
+      "name": "Influenza vaccines, live attenuated"
+    },
+    {
+      "id": "#XM8MP2",
+      "name": "Influenza vaccines, inactivated, split virus or surface antigen"
+    },
+    {
+      "id": "#XM9E16",
+      "name": "Influenza vaccines, virus like particle"
+    },
+    {
+      "id": "#XM33X8",
+      "name": "Influenza, purified antigen"
+    },
+    {
+      "id": "#XM5L44",
+      "name": "Tetanus vaccines"
+    },
+    {
+      "id": "#XM29H5",
+      "name": "Tetanus toxoid vaccines"
+    },
+    {
+      "id": "#XM9AK2",
+      "name": "Tetanus toxoid, combinations with tetanus immunoglobulin vaccines"
+    },
+    {
+      "id": "#XM0RC1",
+      "name": "Encephalitis vaccines"
+    },
+    {
+      "id": "#XM8MP6",
+      "name": "Encephalitis, tick borne, inactivated, whole virus"
+    },
+    {
+      "id": "#XM8BU8",
+      "name": "Typhoid vaccines"
+    },
+    {
+      "id": "#XM33K4",
+      "name": "Typhoid, oral, live attenuated vaccines"
+    },
+    {
+      "id": "#XM89G3",
+      "name": "Typhoid, inactivated, whole cell vaccines"
+    },
+    {
+      "id": "#XM3SF6",
+      "name": "Typhoid, purified polysaccharide antigen vaccines"
+    },
+    {
+      "id": "#XM9UB1",
+      "name": "Typhoid-paratyphoid vaccines"
+    },
+    {
+      "id": "#XM8DG3",
+      "name": "Varicella zoster vaccines"
+    },
+    {
+      "id": "#XM0NS8",
+      "name": "Varicella, live attenuated"
+    },
+    {
+      "id": "#XM0N24",
+      "name": "Yellow fever vaccines"
+    },
+    {
+      "id": "#XM3418",
+      "name": "Yellow fever, live attenuated"
+    },
+    {
+      "id": "#XM38G7",
+      "name": "Dengue vaccines"
+    },
+    {
+      "id": "#XM68M6",
+      "name": "COVID-19 vaccines"
+    },
+    {
+      "id": "#XM0GQ8",
+      "name": "COVID-19 vaccines, RNA based"
+    },
+    {
+      "id": "#XM1NL1",
+      "name": "COVID-19 vaccines, inactivated virus"
+    },
+    {
+      "id": "#XM1J92",
+      "name": "COVID-19 vaccines, virus like particle"
+    },
+    {
+      "id": "#XM9QW8",
+      "name": "COVID-19 vaccines, non-replicating viral vector"
+    },
+    {
+      "id": "#XM6AT1",
+      "name": "COVID-19 vaccines, DNA based"
+    },
+    {
+      "id": "#XM5JC5",
+      "name": "COVID-19 vaccines, virus protein subunit"
+    },
+    {
+      "id": "#XM3CT4",
+      "name": "Zifivax"
+    },
+    {
+      "id": "#XM0CX4",
+      "name": "COVID-19 vaccines, replicating viral vector"
+    },
+    {
+      "id": "#XM5DF6",
+      "name": "COVID-19 vaccines, live attenuated virus"
+    }
+  ],
+  "fhir:CodeSystem": "cs"
+}

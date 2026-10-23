@@ -1,0 +1,18 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"PreQualVaccineDetails","PreQualVaccineDetails","","","",0,*,"","","","null {[]} {[]}
+","PreQual - Vaccine Details","Vaccine Data elements from the Pre Qual Database","","","","","","","","","",,,,,"",,,,"Base",0,*,"","must-have-issuer-or-clinician:Either issuer or clinicianName must be present {issuer.exists() or clinicianName.exists()}
+","n/a"
+"PreQualVaccineDetails.vaccine","PreQualVaccineDetails.vaccine","","","",1,1,"","","","CodeableReference {[]} {[]}
+","Vaccine or prophylaxis","Vaccine or prophylaxis product","","","","","","","","","",,,,,"",,,,"VaccineDetails.vaccine",1,1,"",""
+"PreQualVaccineDetails.date","PreQualVaccineDetails.date","","","",1,1,"","","","date {[]} {[]}
+","Date","Date of vaccination","","","","","","","","","",,,,,"",,,,"VaccineDetails.date",1,1,"",""
+"PreQualVaccineDetails.issuer","PreQualVaccineDetails.issuer","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","Relevant authority responsible for issuing this certificate","Relevant authoring responsible for issuing the certificate, or for overseeing the administration center","","","","","","","","","",,,,,"",,,,"VaccineDetails.issuer",0,1,"",""
+"PreQualVaccineDetails.clinicianName","PreQualVaccineDetails.clinicianName","","","",0,1,"","","","string {[]} {[]}
+","Name of supervising clinician","Name of supervising clinician, of relevant authority responsible for issuing this certificate, or for overseeing the administering centre","","","","","","","","","",,,,,"",,,,"VaccineDetails.clinicianName",0,1,"",""
+"PreQualVaccineDetails.manufacturer","PreQualVaccineDetails.manufacturer","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","Manufacturer of vaccine or prophylaxis","Manufacturer of vaccine or prophylaxis","","","","","","","","","",,,,,"",,,,"VaccineDetails.manufacturer",1,1,"",""
+"PreQualVaccineDetails.batchNo","PreQualVaccineDetails.batchNo","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Batch No. of vaccine or prophylaxis","Batch No. of vaccine or prophylaxis","","","","","","","","","",,,,,"",,,,"VaccineDetails.batchNo",1,1,"",""
+"PreQualVaccineDetails.validity","PreQualVaccineDetails.validity","","","",1,1,"","","","Period {[]} {[]}
+","Certificate valid from... until...","Certificate valid from... until...","","","","","","","","","",,,,,"",,,,"VaccineDetails.validity",1,1,"",""

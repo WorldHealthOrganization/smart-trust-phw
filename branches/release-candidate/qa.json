@@ -1,0 +1,906 @@
+{
+  "phase": "postprocessing",
+  "timestamp": "2025-10-07T06:34:50.998161",
+  "status": "completed",
+  "summary": {
+    "total_successes": 81,
+    "total_warnings": 2,
+    "total_errors": 0,
+    "files_processed_count": 36,
+    "files_expected_count": 1,
+    "files_missing_count": 1,
+    "completion_timestamp": "2025-10-07T06:34:51.055517"
+  },
+  "details": {
+    "successes": [
+      {
+        "message": "Starting generate_dak_api_hub.py post-processing",
+        "timestamp": "2025-10-07T06:34:50.998170"
+      },
+      {
+        "message": "Configured directories - Output: output, OpenAPI: input/images/openapi",
+        "timestamp": "2025-10-07T06:34:50.998174"
+      },
+      {
+        "message": "Loaded existing FHIR IG publisher QA file for merging",
+        "timestamp": "2025-10-07T06:34:50.998267"
+      },
+      {
+        "message": "[preprocessing] Starting update_sushi_config.py preprocessing",
+        "timestamp": "2025-10-07T06:34:50.998347"
+      },
+      {
+        "message": "[preprocessing] Successfully loaded sushi-config.yaml",
+        "timestamp": "2025-10-07T06:34:50.998351"
+      },
+      {
+        "message": "[preprocessing] Found smart-base dependency: smart.who.int.base",
+        "timestamp": "2025-10-07T06:34:50.998353"
+      },
+      {
+        "message": "[preprocessing] Created directory structure for input/pagecontent/dak-api.md",
+        "timestamp": "2025-10-07T06:34:50.998355"
+      },
+      {
+        "message": "[preprocessing] Successfully created dak-api.md with DAK_API_CONTENT marker",
+        "timestamp": "2025-10-07T06:34:50.998356"
+      },
+      {
+        "message": "[preprocessing] Found directory: input/resources",
+        "timestamp": "2025-10-07T06:34:50.998357"
+      },
+      {
+        "message": "[preprocessing] Found 0 JSON files in input/resources",
+        "timestamp": "2025-10-07T06:34:50.998358"
+      },
+      {
+        "message": "[preprocessing] Ensured directory exists: input/pagecontent",
+        "timestamp": "2025-10-07T06:34:50.998362"
+      },
+      {
+        "message": "[preprocessing] Placeholder generation completed",
+        "timestamp": "2025-10-07T06:34:50.998363",
+        "details": {
+          "valuesets_found": 0,
+          "logical_models_found": 0,
+          "placeholder_files_created": 0
+        }
+      },
+      {
+        "message": "[preprocessing] Added dak-api.md to pages section",
+        "timestamp": "2025-10-07T06:34:50.998365"
+      },
+      {
+        "message": "[preprocessing] Added DAK API to menu Indices section",
+        "timestamp": "2025-10-07T06:34:50.998366"
+      },
+      {
+        "message": "[preprocessing] sushi-config.yaml updated successfully",
+        "timestamp": "2025-10-07T06:34:50.998367"
+      },
+      {
+        "message": "[preprocessing] update_sushi_config completed successfully",
+        "timestamp": "2025-10-07T06:34:50.998369"
+      },
+      {
+        "message": "Merged preprocessing QA report from input/temp/",
+        "timestamp": "2025-10-07T06:34:50.998382"
+      },
+      {
+        "message": "[valueset_schemas] Starting ValueSet schema generation",
+        "timestamp": "2025-10-07T06:34:50.998499"
+      },
+      {
+        "message": "[valueset_schemas] Configured paths - Expansions: output/expansions.json, Output: output",
+        "timestamp": "2025-10-07T06:34:50.998504"
+      },
+      {
+        "message": "[valueset_schemas] Successfully loaded expansions data from output/expansions.json",
+        "timestamp": "2025-10-07T06:34:50.998506"
+      },
+      {
+        "message": "[valueset_schemas] Successfully generated 3 ValueSet schemas",
+        "timestamp": "2025-10-07T06:34:50.998511"
+      },
+      {
+        "message": "Merged ValueSet schema generation QA report from input/temp/qa_valueset_schemas.json",
+        "timestamp": "2025-10-07T06:34:50.998519"
+      },
+      {
+        "message": "[logical_model_schemas] Script started",
+        "timestamp": "2025-10-07T06:34:50.998724",
+        "details": {
+          "input_directory": "output",
+          "output_directory": "output"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Input directory found",
+        "timestamp": "2025-10-07T06:34:50.998728",
+        "details": {
+          "directory": "output"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Found 30 StructureDefinition files",
+        "timestamp": "2025-10-07T06:34:50.998730",
+        "details": {
+          "directory": "output",
+          "file_count": 30
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Found 13 logical models",
+        "timestamp": "2025-10-07T06:34:50.998732",
+        "details": {
+          "models_found": 13,
+          "model_names": [
+            "DVC",
+            "VerifiableHealthLinkPayload",
+            "DVCMin",
+            "PreQualDVC",
+            "VaccineDetailsSD",
+            "SmartHealthLink",
+            "PreQualVaccineDetails",
+            "DVCMinVaccineDetails",
+            "VaccineDetails",
+            "HealthLinkPayload",
+            "DVCMinVaccineDetailsPreQual",
+            "SMARTHealthLinkPayload",
+            "DVCMinPreQual"
+          ]
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model DVC",
+        "timestamp": "2025-10-07T06:34:50.998733"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model VerifiableHealthLinkPayload",
+        "timestamp": "2025-10-07T06:34:50.998734"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model DVCMin",
+        "timestamp": "2025-10-07T06:34:50.998736"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model PreQualDVC",
+        "timestamp": "2025-10-07T06:34:50.998737"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model VaccineDetailsSD",
+        "timestamp": "2025-10-07T06:34:50.998738"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model SmartHealthLink",
+        "timestamp": "2025-10-07T06:34:50.998739"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model PreQualVaccineDetails",
+        "timestamp": "2025-10-07T06:34:50.998740"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model DVCMinVaccineDetails",
+        "timestamp": "2025-10-07T06:34:50.998742"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model VaccineDetails",
+        "timestamp": "2025-10-07T06:34:50.998743"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model HealthLinkPayload",
+        "timestamp": "2025-10-07T06:34:50.998744"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model DVCMinVaccineDetailsPreQual",
+        "timestamp": "2025-10-07T06:34:50.998745"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model SMARTHealthLinkPayload",
+        "timestamp": "2025-10-07T06:34:50.998747"
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema for model DVCMinPreQual",
+        "timestamp": "2025-10-07T06:34:50.998748"
+      },
+      {
+        "message": "[logical_model_schemas] Generated 13 Logical Model schemas",
+        "timestamp": "2025-10-07T06:34:50.998749",
+        "details": {
+          "schemas_generated": 13,
+          "schema_files": [
+            "output/StructureDefinition-DVC.schema.json",
+            "output/StructureDefinition-VerifiableHealthLinkPayload.schema.json",
+            "output/StructureDefinition-DVCMin.schema.json",
+            "output/StructureDefinition-PreQualDVC.schema.json",
+            "output/StructureDefinition-VaccineDetailsSD.schema.json",
+            "output/StructureDefinition-SmartHealthLink.schema.json",
+            "output/StructureDefinition-PreQualVaccineDetails.schema.json",
+            "output/StructureDefinition-DVCMinVaccineDetails.schema.json",
+            "output/StructureDefinition-VaccineDetails.schema.json",
+            "output/StructureDefinition-HealthLinkPayload.schema.json",
+            "output/StructureDefinition-DVCMinVaccineDetailsPreQual.schema.json",
+            "output/StructureDefinition-SMARTHealthLinkPayload.schema.json",
+            "output/StructureDefinition-DVCMinPreQual.schema.json"
+          ]
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Successfully generated 13 logical model schemas",
+        "timestamp": "2025-10-07T06:34:50.998750",
+        "details": {
+          "schemas_generated": 13
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998781",
+        "details": {
+          "model_name": "DVC",
+          "schema_file": "output/StructureDefinition-DVC.schema.json",
+          "properties_count": 10,
+          "required_fields": [
+            "resourceType",
+            "name",
+            "dob",
+            "vaccineDetails"
+          ],
+          "timestamp": "2025-10-07T06:34:49.208892",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998783",
+        "details": {
+          "model_name": "VerifiableHealthLinkPayload",
+          "schema_file": "output/StructureDefinition-VerifiableHealthLinkPayload.schema.json",
+          "properties_count": 8,
+          "required_fields": [
+            "resourceType",
+            "url",
+            "key",
+            "type"
+          ],
+          "timestamp": "2025-10-07T06:34:49.209237",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998785",
+        "details": {
+          "model_name": "DVCMin",
+          "schema_file": "output/StructureDefinition-DVCMin.schema.json",
+          "properties_count": 9,
+          "required_fields": [
+            "resourceType",
+            "n",
+            "dob",
+            "v"
+          ],
+          "timestamp": "2025-10-07T06:34:49.209538",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998786",
+        "details": {
+          "model_name": "PreQualDVC",
+          "schema_file": "output/StructureDefinition-PreQualDVC.schema.json",
+          "properties_count": 10,
+          "required_fields": [
+            "resourceType",
+            "name",
+            "dob",
+            "vaccineDetails"
+          ],
+          "timestamp": "2025-10-07T06:34:49.209851",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998791",
+        "details": {
+          "model_name": "VaccineDetailsSD",
+          "schema_file": "output/StructureDefinition-VaccineDetailsSD.schema.json",
+          "properties_count": 14,
+          "required_fields": [
+            "resourceType",
+            "productID",
+            "date",
+            "batchNo"
+          ],
+          "timestamp": "2025-10-07T06:34:49.210226",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998792",
+        "details": {
+          "model_name": "SmartHealthLink",
+          "schema_file": "output/StructureDefinition-SmartHealthLink.schema.json",
+          "properties_count": 2,
+          "required_fields": [
+            "resourceType",
+            "u"
+          ],
+          "timestamp": "2025-10-07T06:34:49.210467",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998793",
+        "details": {
+          "model_name": "PreQualVaccineDetails",
+          "schema_file": "output/StructureDefinition-PreQualVaccineDetails.schema.json",
+          "properties_count": 7,
+          "required_fields": [
+            "resourceType",
+            "productID",
+            "date",
+            "batchNo"
+          ],
+          "timestamp": "2025-10-07T06:34:49.210735",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998795",
+        "details": {
+          "model_name": "DVCMinVaccineDetails",
+          "schema_file": "output/StructureDefinition-DVCMinVaccineDetails.schema.json",
+          "properties_count": 8,
+          "required_fields": [
+            "resourceType",
+            "vp",
+            "dt",
+            "bo"
+          ],
+          "timestamp": "2025-10-07T06:34:49.211022",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998796",
+        "details": {
+          "model_name": "VaccineDetails",
+          "schema_file": "output/StructureDefinition-VaccineDetails.schema.json",
+          "properties_count": 7,
+          "required_fields": [
+            "resourceType",
+            "productID",
+            "date",
+            "batchNo"
+          ],
+          "timestamp": "2025-10-07T06:34:49.211291",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998797",
+        "details": {
+          "model_name": "HealthLinkPayload",
+          "schema_file": "output/StructureDefinition-HealthLinkPayload.schema.json",
+          "properties_count": 8,
+          "required_fields": [
+            "resourceType",
+            "url",
+            "key"
+          ],
+          "timestamp": "2025-10-07T06:34:49.211565",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998799",
+        "details": {
+          "model_name": "DVCMinVaccineDetailsPreQual",
+          "schema_file": "output/StructureDefinition-DVCMinVaccineDetailsPreQual.schema.json",
+          "properties_count": 8,
+          "required_fields": [
+            "resourceType",
+            "vp",
+            "dt",
+            "bo"
+          ],
+          "timestamp": "2025-10-07T06:34:49.211838",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998800",
+        "details": {
+          "model_name": "SMARTHealthLinkPayload",
+          "schema_file": "output/StructureDefinition-SMARTHealthLinkPayload.schema.json",
+          "properties_count": 8,
+          "required_fields": [
+            "resourceType",
+            "url",
+            "key"
+          ],
+          "timestamp": "2025-10-07T06:34:49.212136",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "[logical_model_schemas] Generated schema",
+        "timestamp": "2025-10-07T06:34:50.998803",
+        "details": {
+          "model_name": "DVCMinPreQual",
+          "schema_file": "output/StructureDefinition-DVCMinPreQual.schema.json",
+          "properties_count": 9,
+          "required_fields": [
+            "resourceType",
+            "n",
+            "dob",
+            "v"
+          ],
+          "timestamp": "2025-10-07T06:34:49.212417",
+          "component": "logical_model_schemas"
+        }
+      },
+      {
+        "message": "Merged Logical Model schema generation QA report from input/temp/qa_logical_model_schemas.json",
+        "timestamp": "2025-10-07T06:34:50.998805"
+      },
+      {
+        "message": "[jsonld_vocabularies] Script started",
+        "timestamp": "2025-10-07T06:34:50.999029",
+        "details": {
+          "expansions_path": "output/expansions.json",
+          "output_directory": "output"
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Successfully loaded expansions data",
+        "timestamp": "2025-10-07T06:34:50.999034",
+        "details": {
+          "expansions_path": "output/expansions.json"
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Found FHIR Bundle",
+        "timestamp": "2025-10-07T06:34:50.999044",
+        "details": {
+          "resourceType": "Bundle"
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Found 3 entries in Bundle",
+        "timestamp": "2025-10-07T06:34:50.999046",
+        "details": {
+          "entry_count": 3
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Processing ValueSet DVCRelationshipStatus",
+        "timestamp": "2025-10-07T06:34:50.999047",
+        "details": {
+          "valueset_id": "DVCRelationshipStatus",
+          "entry_index": 0
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Extracted 2 codes for ValueSet DVCRelationshipStatus",
+        "timestamp": "2025-10-07T06:34:50.999048",
+        "details": {
+          "valueset_id": "DVCRelationshipStatus",
+          "codes_count": 2
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Generated JSON-LD vocabulary for ValueSet DVCRelationshipStatus",
+        "timestamp": "2025-10-07T06:34:50.999050"
+      },
+      {
+        "message": "[jsonld_vocabularies] Processing ValueSet DisclosureStatements",
+        "timestamp": "2025-10-07T06:34:50.999051",
+        "details": {
+          "valueset_id": "DisclosureStatements",
+          "entry_index": 1
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Extracted 13 codes for ValueSet DisclosureStatements",
+        "timestamp": "2025-10-07T06:34:50.999052",
+        "details": {
+          "valueset_id": "DisclosureStatements",
+          "codes_count": 13
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Generated JSON-LD vocabulary for ValueSet DisclosureStatements",
+        "timestamp": "2025-10-07T06:34:50.999054"
+      },
+      {
+        "message": "[jsonld_vocabularies] Processing ValueSet HL.TYPE",
+        "timestamp": "2025-10-07T06:34:50.999055",
+        "details": {
+          "valueset_id": "HL.TYPE",
+          "entry_index": 2
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Extracted 2 codes for ValueSet HL.TYPE",
+        "timestamp": "2025-10-07T06:34:50.999057",
+        "details": {
+          "valueset_id": "HL.TYPE",
+          "codes_count": 2
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Generated JSON-LD vocabulary for ValueSet HL.TYPE",
+        "timestamp": "2025-10-07T06:34:50.999058"
+      },
+      {
+        "message": "[jsonld_vocabularies] Generated 3 JSON-LD vocabularies",
+        "timestamp": "2025-10-07T06:34:50.999059",
+        "details": {
+          "vocabularies_generated": 3
+        }
+      },
+      {
+        "message": "[jsonld_vocabularies] Successfully generated 3 JSON-LD vocabularies in output",
+        "timestamp": "2025-10-07T06:34:50.999060",
+        "details": {
+          "vocabularies_count": 3,
+          "output_directory": "output"
+        }
+      },
+      {
+        "message": "Merged JSON-LD vocabulary generation QA report from input/temp/qa_jsonld_vocabularies.json",
+        "timestamp": "2025-10-07T06:34:50.999068"
+      },
+      {
+        "message": "Output directory exists with 1304 items",
+        "timestamp": "2025-10-07T06:34:51.000822"
+      },
+      {
+        "message": "Output directory contents sampled",
+        "timestamp": "2025-10-07T06:34:51.001606",
+        "details": {
+          "sample_files": [
+            "StructureDefinition-VerifiableHealthLinkPayload.profile.history.html",
+            "StructureDefinition-VaccineDetailsSD.xml",
+            "tbl_vjoin-closed.png",
+            "icon_entry_blue.png",
+            "CodeSystem-DocumentationSections.ttl.html",
+            "Questionnaire-PreQual.json.html",
+            "StructureDefinition-DVCBundle.profile.xml.html",
+            "tbl_bck00001110100.png",
+            "tbl_bck101010.png",
+            "icon_reference.png"
+          ]
+        }
+      },
+      {
+        "message": "Initializing DAK API components",
+        "timestamp": "2025-10-07T06:34:51.001648"
+      },
+      {
+        "message": "All components initialized successfully",
+        "timestamp": "2025-10-07T06:34:51.001694"
+      },
+      {
+        "message": "Starting schema file detection phase",
+        "timestamp": "2025-10-07T06:34:51.001722"
+      },
+      {
+        "message": "Schema detection completed",
+        "timestamp": "2025-10-07T06:34:51.004098",
+        "details": {
+          "valueset_schemas": 3,
+          "logical_model_schemas": 13,
+          "other_schemas": 0
+        }
+      },
+      {
+        "message": "Documentation summary completed",
+        "timestamp": "2025-10-07T06:34:51.053860",
+        "details": {
+          "valueset_schema_docs": 3,
+          "logical_model_schema_docs": 13,
+          "enumeration_endpoints": 2,
+          "jsonld_vocabularies": 3,
+          "openapi_docs": 18
+        }
+      },
+      {
+        "message": "Total content items to include in hub: 39",
+        "timestamp": "2025-10-07T06:34:51.053904"
+      },
+      {
+        "message": "Starting DAK API hub post-processing phase",
+        "timestamp": "2025-10-07T06:34:51.053945"
+      },
+      {
+        "message": "DAK API hub post-processing completed successfully",
+        "timestamp": "2025-10-07T06:34:51.055510",
+        "details": {
+          "total_documentation_pages": 39,
+          "valueset_pages": 3,
+          "logical_model_pages": 13,
+          "enumeration_pages": 2,
+          "jsonld_references": 3,
+          "openapi_pages": 18
+        }
+      }
+    ],
+    "warnings": [
+      {
+        "message": "[preprocessing] dak-api.md does not exist, creating new file",
+        "timestamp": "2025-10-07T06:34:50.998371"
+      },
+      {
+        "message": "[preprocessing] Directory not found: fsh-generated/resources",
+        "timestamp": "2025-10-07T06:34:50.998373"
+      }
+    ],
+    "errors": [],
+    "files_processed": [
+      {
+        "file": "[preprocessing] sushi-config.yaml",
+        "status": "loaded",
+        "timestamp": "2025-10-07T06:34:50.998375"
+      },
+      {
+        "file": "[preprocessing] input/pagecontent/dak-api.md",
+        "status": "created",
+        "timestamp": "2025-10-07T06:34:50.998378"
+      },
+      {
+        "file": "[preprocessing] sushi-config.yaml",
+        "status": "updated",
+        "timestamp": "2025-10-07T06:34:50.998379"
+      },
+      {
+        "file": "[valueset_schemas] output/expansions.json",
+        "status": "loaded",
+        "timestamp": "2025-10-07T06:34:50.998515"
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-DVC.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998753",
+        "details": {
+          "model_name": "DVC",
+          "schema_size": 1331
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-VerifiableHealthLinkPayload.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998754",
+        "details": {
+          "model_name": "VerifiableHealthLinkPayload",
+          "schema_size": 2320
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-DVCMin.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998762",
+        "details": {
+          "model_name": "DVCMin",
+          "schema_size": 1256
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-PreQualDVC.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998763",
+        "details": {
+          "model_name": "PreQualDVC",
+          "schema_size": 1423
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-VaccineDetailsSD.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998764",
+        "details": {
+          "model_name": "VaccineDetailsSD",
+          "schema_size": 3645
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-SmartHealthLink.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998766",
+        "details": {
+          "model_name": "SmartHealthLink",
+          "schema_size": 860
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-PreQualVaccineDetails.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998769",
+        "details": {
+          "model_name": "PreQualVaccineDetails",
+          "schema_size": 1367
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-DVCMinVaccineDetails.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998770",
+        "details": {
+          "model_name": "DVCMinVaccineDetails",
+          "schema_size": 1278
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-VaccineDetails.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998772",
+        "details": {
+          "model_name": "VaccineDetails",
+          "schema_size": 1328
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-HealthLinkPayload.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998773",
+        "details": {
+          "model_name": "HealthLinkPayload",
+          "schema_size": 2377
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-DVCMinVaccineDetailsPreQual.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998776",
+        "details": {
+          "model_name": "DVCMinVaccineDetailsPreQual",
+          "schema_size": 1352
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-SMARTHealthLinkPayload.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998778",
+        "details": {
+          "model_name": "SMARTHealthLinkPayload",
+          "schema_size": 2518
+        }
+      },
+      {
+        "file": "[logical_model_schemas] output/StructureDefinition-DVCMinPreQual.schema.json",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.998779",
+        "details": {
+          "model_name": "DVCMinPreQual",
+          "schema_size": 1327
+        }
+      },
+      {
+        "file": "[jsonld_vocabularies] output/ValueSet-DVCRelationshipStatus.jsonld",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.999063",
+        "details": {
+          "valueset_id": "DVCRelationshipStatus",
+          "codes_count": 2,
+          "vocab_size": 893
+        }
+      },
+      {
+        "file": "[jsonld_vocabularies] output/ValueSet-DisclosureStatements.jsonld",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.999064",
+        "details": {
+          "valueset_id": "DisclosureStatements",
+          "codes_count": 13,
+          "vocab_size": 4056
+        }
+      },
+      {
+        "file": "[jsonld_vocabularies] output/ValueSet-HL.TYPE.jsonld",
+        "status": "success",
+        "timestamp": "2025-10-07T06:34:50.999066",
+        "details": {
+          "valueset_id": "HL.TYPE",
+          "codes_count": 2,
+          "vocab_size": 832
+        }
+      },
+      {
+        "file": "output/ValueSet-DisclosureStatements.schema.json",
+        "status": "valueset_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004103"
+      },
+      {
+        "file": "output/ValueSet-HL.TYPE.schema.json",
+        "status": "valueset_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004106"
+      },
+      {
+        "file": "output/ValueSet-DVCRelationshipStatus.schema.json",
+        "status": "valueset_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004109"
+      },
+      {
+        "file": "output/StructureDefinition-VerifiableHealthLinkPayload.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004111"
+      },
+      {
+        "file": "output/StructureDefinition-SMARTHealthLinkPayload.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004113"
+      },
+      {
+        "file": "output/StructureDefinition-VaccineDetailsSD.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004115"
+      },
+      {
+        "file": "output/StructureDefinition-DVCMinPreQual.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004118"
+      },
+      {
+        "file": "output/StructureDefinition-HealthLinkPayload.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004120"
+      },
+      {
+        "file": "output/StructureDefinition-VaccineDetails.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004122"
+      },
+      {
+        "file": "output/StructureDefinition-DVCMin.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004124"
+      },
+      {
+        "file": "output/StructureDefinition-PreQualVaccineDetails.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004126"
+      },
+      {
+        "file": "output/StructureDefinition-PreQualDVC.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004128"
+      },
+      {
+        "file": "output/StructureDefinition-DVCMinVaccineDetailsPreQual.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004130"
+      },
+      {
+        "file": "output/StructureDefinition-DVCMinVaccineDetails.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004132"
+      },
+      {
+        "file": "output/StructureDefinition-SmartHealthLink.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004134"
+      },
+      {
+        "file": "output/StructureDefinition-DVC.schema.json",
+        "status": "logical_model_schema_detected",
+        "timestamp": "2025-10-07T06:34:51.004136"
+      }
+    ],
+    "files_expected": [
+      "output"
+    ],
+    "files_missing": [
+      "output"
+    ]
+  }
+}

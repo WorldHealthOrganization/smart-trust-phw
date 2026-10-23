@@ -1,0 +1,129 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ValueSet Enumeration Schema API",
+    "description": "JSON Schema defining the structure of the ValueSet enumeration endpoint response",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSets.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSets",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSets.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSets",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSets.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSets": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "#/ValueSets.schema.json",
+        "title": "ValueSet Enumeration Schema",
+        "description": "JSON Schema defining the structure of the ValueSet enumeration endpoint response",
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "valueset"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "schemas": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "filename": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "valueSetUrl": {
+                  "type": "string"
+                },
+                "codeCount": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "filename",
+                "title",
+                "url"
+              ]
+            }
+          }
+        },
+        "required": [
+          "type",
+          "count",
+          "schemas"
+        ],
+        "example": {
+          "type": "valueset",
+          "count": 4,
+          "schemas": [
+            {
+              "filename": "ValueSet-DisclosureStatements.schema.json",
+              "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.schema.json",
+              "title": "Disclosure Statements Schema",
+              "description": "JSON Schema for Disclosure Statements ValueSet codes. Generated from FHIR expansions using IRI format.",
+              "url": "./ValueSet-DisclosureStatements.schema.json",
+              "valueSetUrl": "http://smart.who.int/trust-phw/ValueSet/DisclosureStatements",
+              "codeCount": 13
+            },
+            {
+              "filename": "ValueSet-DVCRelationshipStatus.schema.json",
+              "id": "http://smart.who.int/trust-phw/ValueSet-DVCRelationshipStatus.schema.json",
+              "title": "Relationship Status for Contact in Patient Schema",
+              "description": "JSON Schema for Relationship Status for Contact in Patient ValueSet codes. Generated from FHIR expansions using IRI format.",
+              "url": "./ValueSet-DVCRelationshipStatus.schema.json",
+              "valueSetUrl": "http://smart.who.int/trust-phw/ValueSet/DVCRelationshipStatus",
+              "codeCount": 2
+            },
+            {
+              "filename": "ValueSet-DVCVaccines.schema.json",
+              "id": "http://smart.who.int/trust-phw/ValueSet-DVCVaccines.schema.json",
+              "title": "DVC - Vaccines Schema",
+              "description": "JSON Schema for DVC - Vaccines ValueSet codes. Generated from FHIR expansions using IRI format.",
+              "url": "./ValueSet-DVCVaccines.schema.json",
+              "valueSetUrl": "http://smart.who.int/trust-phw/ValueSet/DVCVaccines",
+              "codeCount": 110
+            },
+            {
+              "filename": "ValueSet-HL.TYPE.schema.json",
+              "id": "http://smart.who.int/trust-phw/ValueSet-HL.TYPE.schema.json",
+              "title": "HL.TYPE ValueSet  Schema",
+              "description": "JSON Schema for HL.TYPE ValueSet  ValueSet codes. Generated from FHIR expansions using IRI format.",
+              "url": "./ValueSet-HL.TYPE.schema.json",
+              "valueSetUrl": "http://smart.who.int/trust-phw/ValueSet/HL.TYPE",
+              "codeCount": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+}

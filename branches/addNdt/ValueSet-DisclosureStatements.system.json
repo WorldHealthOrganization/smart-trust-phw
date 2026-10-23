@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.system.json",
+  "title": "Disclosure Statements System URIs",
+  "description": "System URI mappings for Disclosure Statements ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:systems": {
+      "type": "object",
+      "description": "Mapping of ValueSet codes to their corresponding system URIs",
+      "patternProperties": {
+        "^[a-zA-Z0-9._-]+$": {
+          "type": "string",
+          "format": "uri",
+          "description": "System URI for the corresponding code"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:systems"
+  ],
+  "additionalProperties": true,
+  "fhir:systems": {
+    "disclose-icvp": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-narrative": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-demographic": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-demographic-narrative": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-demographic-name": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-demographic-sex": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-demographic-dob": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-demographic-nationality": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-demographic-national-id": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-vaccination": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-vaccination-narrative": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-vaccination-clinician": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements",
+    "disclose-icvp-vaccination-issuer": "http://smart.who.int/trust-phw/CodeSystem/DisclosureStatements"
+  },
+  "fhir:valueSet": "http://smart.who.int/trust-phw/ValueSet/DisclosureStatements",
+  "fhir:version": "0.1.0",
+  "fhir:expansionTimestamp": "2025-09-12T07:44:27+00:00"
+}

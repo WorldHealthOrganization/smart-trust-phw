@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-04-07T13:59:08.120949Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp",
+      "name": "Disclose ICVP ",
+      "fhir:code": "disclose-icvp",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-narrative",
+      "name": "Disclose ICVP narrative",
+      "fhir:code": "disclose-icvp-narrative",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-demographic",
+      "name": "Disclose full details of ICVP demograhic narrative",
+      "fhir:code": "disclose-icvp-demographic",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-demographic-narrative",
+      "name": "Disclose ICVP demograhic narrative",
+      "fhir:code": "disclose-icvp-demographic-narrative",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-demographic-name",
+      "name": "Disclose name",
+      "fhir:code": "disclose-icvp-demographic-name",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-demographic-sex",
+      "name": "Disclose sex",
+      "fhir:code": "disclose-icvp-demographic-sex",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-demographic-dob",
+      "name": "Disclose date of birth",
+      "fhir:code": "disclose-icvp-demographic-dob",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-demographic-nationality",
+      "name": "Disclose nationality",
+      "fhir:code": "disclose-icvp-demographic-nationality",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-demographic-national-id",
+      "name": "Disclose national ID",
+      "fhir:code": "disclose-icvp-demographic-national-id",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-vaccination",
+      "name": "Disclose ICVP vaccination",
+      "fhir:code": "disclose-icvp-vaccination",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-vaccination-narrative",
+      "name": "Disclose ICVP vaccination narrative",
+      "fhir:code": "disclose-icvp-vaccination-narrative",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-vaccination-clinician",
+      "name": "Disclose clinician name",
+      "fhir:code": "disclose-icvp-vaccination-clinician",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    },
+    {
+      "id": "http://smart.who.int/trust-phw/ValueSet-DisclosureStatements.jsonld#disclose-icvp-vaccination-issuer",
+      "name": "Disclose issuer",
+      "fhir:code": "disclose-icvp-vaccination-issuer",
+      "fhir:CodeSystem": "http://smart.who.int/trust-phw/CodeSystem-DisclosureStatements"
+    }
+  ]
+}
