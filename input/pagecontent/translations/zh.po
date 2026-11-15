@@ -257,7 +257,7 @@ msgstr "依据信任列表认证接收方 {code0}"
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:328
 msgid "Authenticate the VHL Receiver ({code0}), find the agreements and Consents in force from its verified identity, decide under every applicable one (process F, DMN {code1}), and record an IHE ATNA audit event ({code2}) that cites every one evaluated."
-msgstr "认证 VHL 接收方（{code0}），根据其已验证的身份查找有效的协议和 Consent，依据每一项适用的协议或 Consent 作出决策（流程 F, DMN {code1}），并记录一条 IHE ATNA 审计事件（{code2}），其中引用所评估的每一项。"
+msgstr "认证 VHL 接收方（{code0}），根据其已验证的身份查找有效的协议和 Consent，依据每一项适用的协议或 Consent 作出决策（流程 F，DMN {code1}），并记录一条 IHE ATNA 审计事件（{code2}），其中引用所评估的每一项。"
 
 #. Source: input/pagecontent/business-processes.md:58
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -541,7 +541,7 @@ msgstr "决定停止的内容：撤销（最终）或暂停（可逆）"
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:222
 msgid "Default: prohibit wins. Among the applicable policies, the request is permitted if at least one permits and none prohibits. This is ODRL 2.2's own conflict strategy {code0} (\"Prohibitions take preference over permissions\"). An {code1} is never permit."
-msgstr "默认：禁止优先。在适用的策略中，只要至少一项许可且没有一项禁止，请求即获许可。这是 ODRL 2.2 自身的冲突策略 {code0}（“禁止优先于许可”）。一个 {code1} 绝不等同于许可。"
+msgstr "默认：禁止胜出。在适用的策略中，只要至少一项许可且没有一项禁止，请求即获许可。这是 ODRL 2.2 自身的冲突策略 {code0}（“禁止优先于许可”）。一个 {code1} 绝不等同于许可。"
 
 #. Source: input/pagecontent/business-processes.md:458
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -762,7 +762,7 @@ msgstr "HL7 SSRAA §2.1, §2.2, §2.3 ({code0}), §2.4; UDAP Server Metadata §1
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:154
 msgid "HL7 SSRAA §3.1 (claims; {code0} = certificate SAN URI; {code1} = {code2}), §3.2.3 (request body, {code3} = {code4}), §3.3 (certifications); UDAP DCR §2‡"
-msgstr "HL7 SSRAA §3.1（声明；{code0} = 证书 SAN URI；{code1} = {code2}），§3.2.3（请求体，{code3} = {code4}），§3.3（认证）；UDAP DCR §2‡"
+msgstr "HL7 SSRAA §3.1（声明；{code0} = 证书 SAN URI；{code1} = {code2}），§3.2.3（请求体，{code3} = {code4}），§3.3（认证证明）；UDAP DCR §2‡"
 
 #. Source: input/pagecontent/business-processes.md:461
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -858,7 +858,7 @@ msgstr "签发以同意为依据的 VHL"
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:122
 msgid "Issue a short-lived, key-bound token (DPoP, RFC 9449) for an RFC 9396 {code0} request whose {code1} (§2.2) is the agreement's fixed-version URL, after the access decision."
-msgstr "在作出访问决策后，为一个 RFC 9396 {code0} 请求签发短期、密钥绑定的令牌（DPoP, RFC 9449），该请求的 {code1}（§2.2）为协议的固定版本 URL。"
+msgstr "在作出访问决策后，为一个 RFC 9396 {code0} 请求签发短期、密钥绑定的令牌（DPoP，RFC 9449），该请求的 {code1}（§2.2）为协议的固定版本 URL。"
 
 #. Source: input/pagecontent/business-processes.md:383
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -1050,7 +1050,7 @@ msgstr "L3. 将持有人的行为记录为证据"
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:463
 msgid "L4. Post the explicit Consent [ITI-108] Access Consent"
-msgstr "L4. 提交明示同意 [ITI-108] 访问同意"
+msgstr "L4. 提交明示 Consent [ITI-108] Access Consent"
 
 #. Source: input/pagecontent/business-processes.md:464
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -1116,7 +1116,7 @@ msgstr "M. 向共享或已签发的文档添加同意指令"
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:483
 msgid "M1. Search active Consents for the holder [ITI-108] Access Consent"
-msgstr "M1. 搜索持有人的有效同意 [ITI-108] 访问同意"
+msgstr "M1. 搜索持有人的有效 Consent [ITI-108] Access Consent"
 
 #. Source: input/pagecontent/business-processes.md:484
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -1729,7 +1729,7 @@ msgstr "在信任锚信任列表中发布密钥 {code0} (GDHCN 或其他锚点)"
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:373
 msgid "Purpose of use in the audit event. With the SSRAA option, the purpose can come from the token request: {code0}, a required array of codes in the {code1} extension of the receiver's JWT client assertion (SSRAA §5.2.1.1; HL7 v3 PurposeOfUse is encouraged, §5.2.1.2). SSRAA does not constrain the access token's format (§5.2.3), so the Sharer has the purpose directly when its own authorization server issued the token; how a separate authorization server would pass it on is not specified. Without SSRAA, {code2} carries no purpose, and it comes from the agreement or from the PCF Consent recorded at {code3} ({code4}). Which source the event records, and which one wins when they differ, is open."
-msgstr "审计事件中的使用目的。采用 SSRAA 选项时，目的可来自令牌请求：{code0}，即接收方 JWT 客户端断言的 {code1} 扩展中一个必需的代码数组（SSRAA §5.2.1.1；鼓励使用 HL7 v3 PurposeOfUse, §5.2.1.2）。SSRAA 不约束访问令牌的格式（§5.2.3），因此当共享方自己的授权服务器签发令牌时，共享方可直接获得目的；独立的授权服务器如何传递目的未作规定。不采用 SSRAA 时，{code2} 不携带目的，目的来自协议，或来自在 {code3}（{code4}）记录的 PCF Consent。事件记录哪个来源，以及两者不一致时以哪个为准，尚未确定。"
+msgstr "审计事件中的使用目的。采用 SSRAA 选项时，目的可来自令牌请求：{code0}，即接收方 JWT 客户端断言的 {code1} 扩展中一个必需的代码数组（SSRAA §5.2.1.1；鼓励使用 HL7 v3 PurposeOfUse，§5.2.1.2）。SSRAA 不约束访问令牌的格式（§5.2.3），因此当共享方自己的授权服务器签发令牌时，共享方可直接获得目的；独立的授权服务器如何传递目的未作规定。不采用 SSRAA 时，{code2} 不携带目的，目的来自协议，或来自在 {code3}（{code4}）记录的 PCF Consent。事件记录哪个来源，以及两者不一致时以哪个为准，尚未确定。"
 
 #. Source: input/pagecontent/business-processes.md:101
 #. URL: http://smart.who.int/trust-phw/business-processes.html
