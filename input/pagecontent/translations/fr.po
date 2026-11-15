@@ -696,7 +696,7 @@ msgstr "Parties fixes : le remplacement ne peut pas renvoyer {code0} lorsqu’au
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:505
 msgid "For a worked example of processes A, B, C, F and I in one case, see <a0>Worked Example: IPS Pilgrimage (Hajj)</a0>."
-msgstr "Pour un exemple concret des processus A, B, C, F et I dans un même cas, voir <a0>Exemple concret : pèlerinage IPS (Hajj)</a0>."
+msgstr "Pour un exemple concret des processus A, B, C, F et I dans un même cas, voir <a0>Exemple détaillé : IPS Pilgrimage (Hajj)</a0>."
 
 #. Source: input/pagecontent/business-processes.md:262
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -1200,7 +1200,7 @@ msgstr "Objectif : présenter un lien de santé vérifiable ({code0}), vérifier
 #. URL: http://smart.who.int/trust-phw/business-processes.html
 #: input/pagecontent/business-processes.md:62
 msgid "Objective: Publish VHL Sharer PKI signing keys to an abstract Trust Anchor ({code0}), verify or record an active patient privacy consent directive ({code1}), and generate a signed Verifiable Health Link ({code2}) for storage in the Holder's Personal Health Wallet. Trust-anchor neutral (WHO GDHCN is one possible Trust Anchor among others)."
-msgstr "Objectif : publier les clés de signature ICP du partageur de VHL auprès d’une ancre de confiance abstraite ({code0}), vérifier ou enregistrer une directive de consentement du patient relative à la confidentialité active ({code1}), et générer un lien de santé vérifiable signé ({code2}) à stocker dans le portefeuille de santé personnel du titulaire. Neutre vis-à-vis de l’ancre de confiance (le GDHCN de l’OMS est une ancre de confiance possible parmi d’autres)."
+msgstr "Objectif : publier les clés de signature ICP du partageur de VHL auprès d’une ancre de confiance abstraite ({code0}), vérifier ou enregistrer une directive active de consentement du patient relative à la confidentialité ({code1}), et générer un lien de santé vérifiable signé ({code2}) à stocker dans le portefeuille de santé personnel du titulaire. Neutre vis-à-vis de l’ancre de confiance (le GDHCN de l’OMS est une ancre de confiance possible parmi d’autres)."
 
 #. Source: input/pagecontent/business-processes.md:266
 #. URL: http://smart.who.int/trust-phw/business-processes.html
@@ -3707,7 +3707,7 @@ msgstr "Choisir une option VHL : OAuth with SSRAA (UDAP), approuvée pour les pr
 #. URL: http://smart.who.int/trust-phw/example-pilgrimage.html
 #: input/pagecontent/example-pilgrimage.md:11
 msgid "Consent"
-msgstr "Consentement"
+msgstr "Consent"
 
 #. Source: input/pagecontent/example-pilgrimage.md:36
 #. URL: http://smart.who.int/trust-phw/example-pilgrimage.html
@@ -4171,7 +4171,7 @@ msgstr "Les consentements du pèlerin constituent la politique"
 #. URL: http://smart.who.int/trust-phw/example-pilgrimage.html
 #: input/pagecontent/example-pilgrimage.md:87
 msgid "The pilgrim, the Malaysian HIE and the Saudi Ministry of Health are stand-ins, as in smart-ips-pilgrimage#3. Their identifiers are {code0} URLs."
-msgstr "Le pèlerin, le HIE malaisien et le ministère de la Santé saoudien sont des figurants, comme dans smart-ips-pilgrimage#3. Leurs identifiants sont des URL {code0}."
+msgstr "Le pèlerin, le HIE malaisien et le ministère de la Santé saoudien sont des substituts, comme dans smart-ips-pilgrimage#3. Leurs identifiants sont des URL {code0}."
 
 #. Source: input/pagecontent/example-pilgrimage.md:60
 #. URL: http://smart.who.int/trust-phw/example-pilgrimage.html
