@@ -3207,7 +3207,7 @@ msgstr "كل توجيه هو مُدخَل {code0} في Bundle المستند (<a
 #. URL: http://smart.who.int/trust-phw/consent.html
 #: input/pagecontent/consent.md:7
 msgid "Explicit consent"
-msgstr "الموافقة الصريحة"
+msgstr "الموافقة الصريحة:"
 
 #. Source: input/pagecontent/consent.md:37
 #. URL: http://smart.who.int/trust-phw/consent.html
@@ -4632,7 +4632,7 @@ msgstr "سجل الموافقات"
 #. URL: http://smart.who.int/trust-phw/personas.html
 #: input/pagecontent/personas.md:18
 msgid "Data Provider Administrator"
-msgstr "مسؤول إدارة لدى مزوِّد البيانات"
+msgstr "مسؤول الإدارة لدى مقدِّم البيانات"
 
 #. Source: input/pagecontent/personas.md:19
 #. URL: http://smart.who.int/trust-phw/personas.html
