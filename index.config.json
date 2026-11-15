@@ -6,7 +6,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/smart-base",
-          "ref": "cc33d42e2e25c36ed6eb168183b7804bc126ee18",
+          "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
           "overrides": {
             "smart-base": {
               "path": "smart-base",
@@ -41,9 +41,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "cc33d42e2e25c36ed6eb168183b7804bc126ee18",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "050de3b8130e96cf39dada434e5edacb68a6163e",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
@@ -61,7 +61,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/who-iris",
-          "ref": "db882ee8fc9baef00115b6e8cba449f76305266f",
+          "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
           "overrides": {
             "who-iris": {
               "whole": true
@@ -85,9 +85,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "db882ee8fc9baef00115b6e8cba449f76305266f",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "62f92b098f287704c4506fafb57c1223b5be8616",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
@@ -105,7 +105,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/fhir-harness",
-          "ref": "9c04b6fa237c2ab5f6217ffcb42c760f3783b2f3",
+          "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
           "overrides": {
             "fhir-harness": {
               "whole": true
@@ -114,9 +114,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "9c04b6fa237c2ab5f6217ffcb42c760f3783b2f3",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "5bf5ff9576650c132fb541e3d477e1feab447159",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
@@ -134,7 +134,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/folio-assistant-core",
-          "ref": "ecf40417ad41a66dff638d0dc1c2a68796d7b6ad",
+          "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
           "overrides": {
             "folio-assistant-core": {
               "whole": true
@@ -149,9 +149,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "ecf40417ad41a66dff638d0dc1c2a68796d7b6ad",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "aceae1937c9af784c8c0af6a60a1d7192cdd5e2a",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
@@ -169,7 +169,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness",
-          "ref": "855c93fa1ef9690508c398c738706817070b9a91",
+          "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
           "overrides": {
             "cat-harness": {
               "whole": true
@@ -184,9 +184,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "855c93fa1ef9690508c398c738706817070b9a91",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "2e959408e5a8167460fb9566933be299a17f0d8d",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
@@ -204,7 +204,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "43993a90cd7a544f54636545953d7df26963730d",
+          "ref": "067776bd7dcbd6203e15020c565f02756aa0b597",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -216,9 +216,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "43993a90cd7a544f54636545953d7df26963730d",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "067776bd7dcbd6203e15020c565f02756aa0b597",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
@@ -236,7 +236,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap",
-          "ref": "aa7e13e0f3fd3f8fb69452427068b8b01a6f59c1",
+          "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
           "overrides": {
             "bootstrap": {
               "whole": true
@@ -245,9 +245,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "aa7e13e0f3fd3f8fb69452427068b8b01a6f59c1",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "7db8457701ebb9b99284d639128f3c82ad4fc6ea",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
@@ -265,7 +265,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/bootstrap-tools",
-          "ref": "e379e4757988c7ef7afe840fe34fe65a8badf063",
+          "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
           "overrides": {
             "bootstrap-tools": {
               "whole": true
@@ -277,9 +277,9 @@
           "trust": {
             "consent": {
               "by": "litlfred",
-              "on": "2026-11-14",
-              "ref": "e379e4757988c7ef7afe840fe34fe65a8badf063",
-              "evidence": "owner litlfred, 2026-11-14 ~05:50Z and 13 Nov ~20:56Z, in Claude Code session https://claude.ai/code/session_01VQDpPffYARDQ8juksAZScf: 'send to you as merge manager to handle merge AND repin'; 'A. Renew 6h + re-pin' (every layer at main); needed so the merge-guard caller can pin tools >= #2118"
+              "on": "2026-11-15",
+              "ref": "174a567db34db10b007a45b13f960f218a6b04f5",
+              "evidence": "standing consent by litlfred 2026-11-12 (Q-BIBNAV-2 B: follow main); hand re-pin of every layer to main after cat-harness-tools#2278 (standing re-pin could not mount smart-base), Claude Code session https://claude.ai/code/session_01Qmmkt9PKt17La22a63e6zg"
             },
             "standing": {
               "follows": "main",
