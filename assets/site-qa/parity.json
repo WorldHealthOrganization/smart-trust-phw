@@ -1,0 +1,82 @@
+{
+ "$schema": "site-parity-report/v1",
+ "outcome": "published-with-shortfall",
+ "shortfall": [
+  "directories the current root serves and the candidate does not: sitepreview/"
+ ],
+ "droppedByRuling": [
+  {
+   "what": "schemas/",
+   "ruling": "owner, 2026-10-15, \"New address only\": the IG API sidecars are served at fhir-artifact-index/sidecars/ and no copy is made at schemas/"
+  }
+ ],
+ "current": {
+  "pages": 1436,
+  "counts": {
+   "siteNav": 0,
+   "search": 0,
+   "navbarRow": 0,
+   "rail": 0,
+   "translationMeta": 0
+  },
+  "dirs": [
+   "assets",
+   "openapi",
+   "schemas",
+   "sitepreview"
+  ],
+  "index": []
+ },
+ "candidate": {
+  "pages": 1479,
+  "counts": {
+   "siteNav": 0,
+   "search": 1166,
+   "navbarRow": 236,
+   "rail": 1166,
+   "translationMeta": 1166
+  },
+  "dirs": [
+   "artifact",
+   "assets",
+   "cat-harness",
+   "en",
+   "fhir-artifact-index",
+   "folio-assistant-core",
+   "id-lookup",
+   "openapi",
+   "questionnaires",
+   "smart-base",
+   "smart-trust-phw",
+   "translations"
+  ],
+  "index": [
+   "search",
+   "navbarRow",
+   "rail",
+   "translationMeta"
+  ],
+  "stamp": {
+   "present": true
+  }
+ },
+ "baseline": {
+  "features": {
+   "pages": 1436,
+   "counts": {
+    "siteNav": 0,
+    "search": 0,
+    "navbarRow": 0,
+    "rail": 0,
+    "translationMeta": 0
+   },
+   "dirs": [
+    "assets",
+    "openapi",
+    "schemas",
+    "sitepreview"
+   ],
+   "index": []
+  }
+ }
+}

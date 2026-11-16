@@ -1,0 +1,7 @@
+{
+  "$schema": "fhir-artifact-index-ref/v1",
+  "index": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-phw/e551ef055c386fe1e1f2df2cceaecce3d7c2ef53/fhir-artifact-index/index.json",
+  "base": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-phw/e551ef055c386fe1e1f2df2cceaecce3d7c2ef53/",
+  "repository": "WorldHealthOrganization/smart-trust-phw",
+  "commit": "e551ef055c386fe1e1f2df2cceaecce3d7c2ef53"
+}

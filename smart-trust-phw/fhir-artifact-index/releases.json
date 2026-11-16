@@ -1,0 +1,675 @@
+{
+  "$schema": "ig-releases/v1",
+  "repository": "WorldHealthOrganization/smart-trust-phw",
+  "readAt": "2026-11-16",
+  "releases": [
+    {
+      "tag": "v0.1.0.4",
+      "name": "FHIR Package v0.1.0.4",
+      "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/tag/v0.1.0.4",
+      "publishedAt": "2026-04-01T12:08:13Z",
+      "prerelease": false,
+      "commitish": "8ca74358dd766982ce34d80eec77352488e1d584",
+      "assets": [
+        {
+          "name": "ai.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/ai.zip",
+          "bytes": 108007,
+          "digest": "sha256:ed2660463e9bd40919999e1239bdb5d904b165444adbbf2f0d95738a8d58ce83",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "csvs.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/csvs.zip",
+          "bytes": 429193,
+          "digest": "sha256:61c3669c7a983c3ff2c9fae3f4b92c8bd97efd0f07ff2442bb3344dc407d436a",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/definitions.json.zip",
+          "bytes": 577807,
+          "digest": "sha256:94c20f3d2d777ad03601c77d7469619b2d10497374ae38b0083869882e70d55e",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/definitions.ttl.zip",
+          "bytes": 676349,
+          "digest": "sha256:da6a8874594536ea3bf8b38c6a88914f1cbc0ae31af63deddfcb66d9f1361944",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/definitions.xml.zip",
+          "bytes": 602449,
+          "digest": "sha256:b13d9a2464e6f3d815592348b23482f35f3bf7b5dfc3b695c2c3f5579ee55b64",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/examples.json.zip",
+          "bytes": 5078,
+          "digest": "sha256:cfe167166adb1504a6dace5cccbf7765284c6a613cb2e0c21897f7a704e067c2",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/examples.ttl.zip",
+          "bytes": 6292,
+          "digest": "sha256:7e86e8d4b251757a66db067fb243da8dc4cf9932fa9d5159b4fbf1473dd71560",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/examples.xml.zip",
+          "bytes": 5259,
+          "digest": "sha256:1c4391068f03e3b237e23c71fa3b31001e634e5b2b6bb208ed7cfb1f59d678fc",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "excels.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/excels.zip",
+          "bytes": 1086320,
+          "digest": "sha256:5a606024255ad047f7a552cd7036b0b75f72c8126e942564b57b01c1c95055b4",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/expansions.json.zip",
+          "bytes": 2732,
+          "digest": "sha256:a2cf03ff8ed5b4ef2362f734de08bff07a30304a26b21602a1ac435acd0b2e36",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/expansions.xml.zip",
+          "bytes": 2868,
+          "digest": "sha256:c48209603cc47466475d910cdff17a1adce8c391b1951b6aa955d2ccb69569f2",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "package-combined.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/package-combined.tgz",
+          "bytes": 1805981,
+          "digest": "sha256:ad1d0b77a7702acfbb5fad9eccf038eb8a33e66bc0775a7b4e4a3ee322124cb8",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "package.db",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/package.db",
+          "bytes": 6062080,
+          "digest": "sha256:61b3952134b25fafa857def93848e80fe3d560d3b7f3f81ae2ed7adf256ee050",
+          "contentType": "application/x-sqlite3"
+        },
+        {
+          "name": "package.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/package.tgz",
+          "bytes": 626613,
+          "digest": "sha256:843e51dcbec9f7cdda0933ee695833c150e713744897de43eb6d2052df6af361",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "schematrons.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/schematrons.zip",
+          "bytes": 14176,
+          "digest": "sha256:f020e0a0c5cb2a85c538d7fccfbe93a9bfad1bb41d5020331e74732de9576bd2",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "spreadsheets.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/spreadsheets.zip",
+          "bytes": 1086030,
+          "digest": "sha256:3c904ec14037e67a74d9830efcde43067c013d71fbf5c28a1e8331cf8df4b938",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "validator.pack",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.4/validator.pack",
+          "bytes": 591335,
+          "digest": "sha256:978e3e843168b6fa0aefafbe2a33b23bbba6adc9b9af7ceccc2414adcfc040b7",
+          "contentType": "application/octet-stream"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.0.3",
+      "name": "FHIR Package v0.1.0.3",
+      "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/tag/v0.1.0.3",
+      "publishedAt": "2026-04-01T12:07:47Z",
+      "prerelease": false,
+      "commitish": "d51ba35efbe1f0519260a8286040f754c1beab24",
+      "assets": [
+        {
+          "name": "ai.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/ai.zip",
+          "bytes": 107999,
+          "digest": "sha256:c54a1e0bf1248312916f4f1ef1d3a52f24cd3e49fc2d427820e6f09646209e75",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "csvs.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/csvs.zip",
+          "bytes": 429193,
+          "digest": "sha256:5f740e1d01e6999339050dc175e8a143c900a220dd4599e56320c6a6da68e0ff",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/definitions.json.zip",
+          "bytes": 577812,
+          "digest": "sha256:ddfce54869e6f3c2b3092d2e56d7ac56ff726e8f955b514173fe0602e1f87eca",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/definitions.ttl.zip",
+          "bytes": 676337,
+          "digest": "sha256:175ae76a329b166d643da8363e53ed2943f8e8b59fafcd429bf294f4800ac7ba",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/definitions.xml.zip",
+          "bytes": 602443,
+          "digest": "sha256:a78e369c1ce6a61da97fcb30cdffea8aa1bf6f9c141d27b8f7ccfb2b25827a94",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/examples.json.zip",
+          "bytes": 5078,
+          "digest": "sha256:44361b0e9ef5824ae649d41c53a0006dafb065ceca8bcc0cc56a4facbbb2b798",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/examples.ttl.zip",
+          "bytes": 6292,
+          "digest": "sha256:fb04c0c74c4b7e3387441791648073b54946f8c3f906e9ce4f301e580e0df78b",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/examples.xml.zip",
+          "bytes": 5259,
+          "digest": "sha256:53656a4ac06aed827b5fe107b6a9a3be0eba72ba7569a9e6b3fb8c8114a646bf",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "excels.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/excels.zip",
+          "bytes": 1086339,
+          "digest": "sha256:33c3c35281a090bad2f423f76bcdc51cdfae1ac498221d21ab32a14258e2b4c1",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/expansions.json.zip",
+          "bytes": 2732,
+          "digest": "sha256:eb2d426bf705aecae72f309f32c188e97fa18f5f26effb940d2b001ebe1941c9",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/expansions.xml.zip",
+          "bytes": 2867,
+          "digest": "sha256:cfb4fa5d96c64a93936e72938822707815896946fd4861a4cfd74725fe40c817",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "package-combined.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/package-combined.tgz",
+          "bytes": 1806020,
+          "digest": "sha256:9ad5fb24540278c15b21cd53f279479f9eaa19e4c4eb28ba9296a460c50fdb0e",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "package.db",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/package.db",
+          "bytes": 6062080,
+          "digest": "sha256:c88610d58189e61199a7c7852ed0eae98ceb1dae5095a5ef9588012c3a6618fd",
+          "contentType": "application/x-sqlite3"
+        },
+        {
+          "name": "package.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/package.tgz",
+          "bytes": 626617,
+          "digest": "sha256:66b0caa2d750df7d8ead7223dc8dea06b05e80fe8580eae47ee33fc92820f792",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "schematrons.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/schematrons.zip",
+          "bytes": 14176,
+          "digest": "sha256:d2c91692c274b4b9a5a8081c0505284cf9b918bf76fbf65bc099e67debaaff55",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "spreadsheets.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/spreadsheets.zip",
+          "bytes": 1086042,
+          "digest": "sha256:d1a12e3f0c106985ef33bacd2ce8b858c6c8118d9df225102c58447ca86e1096",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "validator.pack",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.3/validator.pack",
+          "bytes": 591341,
+          "digest": "sha256:1ccdab5b8974de692c2c984b52e933acddb679e2d4b6b494fda9b9566353ace8",
+          "contentType": "application/octet-stream"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.0.2",
+      "name": "FHIR Package v0.1.0.2",
+      "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/tag/v0.1.0.2",
+      "publishedAt": "2026-03-30T13:33:00Z",
+      "prerelease": false,
+      "commitish": "233d2215e96c8be9fe7e2c918932dee85989e654",
+      "assets": [
+        {
+          "name": "ai.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/ai.zip",
+          "bytes": 107878,
+          "digest": "sha256:be237360ff3cafba701bd2a6342312752765bd71cfaa0a986cc37c03497abc28",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "csvs.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/csvs.zip",
+          "bytes": 430182,
+          "digest": "sha256:202f49357f730c8a5ced5dfddaac503d6151837e100fcf1e42fce85076eb734b",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/definitions.json.zip",
+          "bytes": 577447,
+          "digest": "sha256:658242cdb413481da61cd9fad008ac9ffcf9d64ace563f26321672f814f4ddc6",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/definitions.ttl.zip",
+          "bytes": 676251,
+          "digest": "sha256:4653434e8cdf6ad527df7f57e0e3fd1a3c837b77ce2dfa7c62559cd94f11cc91",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/definitions.xml.zip",
+          "bytes": 602091,
+          "digest": "sha256:0a1bb768c462f0a17bc26bee2c032c3cda7342144bde56437e73fd94a135eaed",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/examples.json.zip",
+          "bytes": 5078,
+          "digest": "sha256:9655a8fbb6b0029539fca16d560a04ea7014659a86980683c1db62c8a028845f",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/examples.ttl.zip",
+          "bytes": 6292,
+          "digest": "sha256:822fd5f3b4d970841e93780ff40f744785ce9c193cd3ee9c84e6bbb8bdfb154a",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/examples.xml.zip",
+          "bytes": 5259,
+          "digest": "sha256:391b552a648e9ba258a30677e210537cff58bcd8f48b5a7a44ba8235264957e6",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "excels.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/excels.zip",
+          "bytes": 1086292,
+          "digest": "sha256:01e8c7f93a8014960d9337aaef4114580a81d7d1eecb2e7173cf2a2f2b79b743",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/expansions.json.zip",
+          "bytes": 2733,
+          "digest": "sha256:06e1c97032f02febff135d784c9a20557b70305de708b06d803fb474581402e9",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/expansions.xml.zip",
+          "bytes": 2868,
+          "digest": "sha256:9a442441fe20efc89d542f010b6429f5e16147c55078c7a2445d3512a9ab529c",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "package-combined.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/package-combined.tgz",
+          "bytes": 1805772,
+          "digest": "sha256:74eddfe3e094ed67dd324e3d3c6a11b70ab56eff1f22bb60dc325f05903adce3",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "package.db",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/package.db",
+          "bytes": 6053888,
+          "digest": "sha256:aa2e78dbc8a07acbb9929cfe15afad19a9e9fc1b8fe6253aa231241ebf0a130d",
+          "contentType": "application/x-sqlite3"
+        },
+        {
+          "name": "package.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/package.tgz",
+          "bytes": 626153,
+          "digest": "sha256:65f466bae31a7941194087db4ef2481db9d1be21b63de6e3c1673defea24f3ec",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "schematrons.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/schematrons.zip",
+          "bytes": 14170,
+          "digest": "sha256:f5ff4af9c34376adfb7fbad5a335456f38a9f3144838d87d61e23a6200f63f1a",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "spreadsheets.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/spreadsheets.zip",
+          "bytes": 1085968,
+          "digest": "sha256:670147c75abbfa64b97a04e7027f4a2aaf3eaf0d0b9a5f19e9d74c4af9163f1b",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "validator.pack",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.2/validator.pack",
+          "bytes": 590979,
+          "digest": "sha256:af64bdeeef693c96277648f34603e9e508c96ab1fbb61a024cf8b997ea380a07",
+          "contentType": "application/octet-stream"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.0.1",
+      "name": "FHIR Package v0.1.0.1",
+      "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/tag/v0.1.0.1",
+      "publishedAt": "2026-03-30T13:32:19Z",
+      "prerelease": false,
+      "commitish": "9eff6e1e01ccf2ea22cac1aae674e465076ca345",
+      "assets": [
+        {
+          "name": "ai.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/ai.zip",
+          "bytes": 107913,
+          "digest": "sha256:34f8f846667323e39b80f4822e0efbabe1da498ef65ee9ffd1a38d26f9a66a03",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "csvs.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/csvs.zip",
+          "bytes": 430182,
+          "digest": "sha256:8dbb8347e56f66a72983862814d343130b943b5a927bbe31b0eb89049c670e69",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/definitions.json.zip",
+          "bytes": 577465,
+          "digest": "sha256:553fa8d1cd30d5d913dff1d1d7ef40c732d9caece89d06de6c66e0f623b1d0cc",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/definitions.ttl.zip",
+          "bytes": 676285,
+          "digest": "sha256:0e74198caf42abe9e236984d8ed84e3e33c5465338d68c9e1c22fdbe765def7b",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/definitions.xml.zip",
+          "bytes": 602106,
+          "digest": "sha256:11009f5800f8487838417afc2c6dbff8f8aa4c63d8fccbaf4a09d1169e2413d7",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/examples.json.zip",
+          "bytes": 5078,
+          "digest": "sha256:30a8ce4e63a731da5a17554bdf61e5d7e05bf527dea469c6d2c4539a78b3cc97",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/examples.ttl.zip",
+          "bytes": 6292,
+          "digest": "sha256:4bb691f37d879cc852d0eba88687c45bc8300b3f40bf09faddef9289ce7671ac",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/examples.xml.zip",
+          "bytes": 5259,
+          "digest": "sha256:7f0754c7a4c81df14262e9f47cacfa4fa504bd4f088223f3b7c02a9659f44468",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "excels.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/excels.zip",
+          "bytes": 1086272,
+          "digest": "sha256:e0491597a0ef3bd7318235cd11facde09307faf47894028eb3230fcad00ccf4f",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/expansions.json.zip",
+          "bytes": 2733,
+          "digest": "sha256:404832ba7dd9105d4d00c21f7d4df9922383e237a70b9a49e68b2fb91ced6641",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/expansions.xml.zip",
+          "bytes": 2867,
+          "digest": "sha256:140f9942b06f8a7e5b3e741eff7bf2f965bb3d377c3876cb082d96645b107e2a",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "package-combined.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/package-combined.tgz",
+          "bytes": 1805785,
+          "digest": "sha256:c6c853ded362c0e2e158f7730a10a8b157420dc9c45c2362a0c6365e1aadf6a6",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "package.db",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/package.db",
+          "bytes": 6053888,
+          "digest": "sha256:5d9ff2a17ccba13c67c4e95911996766d14830c241be91ccc75263087b220ae7",
+          "contentType": "application/x-sqlite3"
+        },
+        {
+          "name": "package.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/package.tgz",
+          "bytes": 626166,
+          "digest": "sha256:28cd446a3109fb587b767e7ba401baf5a5c9e6a65edb1898bf05ba6d1ef15bc7",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "schematrons.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/schematrons.zip",
+          "bytes": 14170,
+          "digest": "sha256:72bb5b56f5f91cab9d04855f7f03e9eecd09e5a5492aafe80d5693866aeaf02f",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "spreadsheets.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/spreadsheets.zip",
+          "bytes": 1085947,
+          "digest": "sha256:86c65118f8c86cb467a56e0bf9fbff690c0f51dbde0f1433691ec5466f908422",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "validator.pack",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.1/validator.pack",
+          "bytes": 590997,
+          "digest": "sha256:afb438e2e76fb66f49a8cadb9fae77c0f8c855f288a9e31ef35237629cef08ad",
+          "contentType": "application/octet-stream"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.0.0",
+      "name": "FHIR Package v0.1.0.0",
+      "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/tag/v0.1.0.0",
+      "publishedAt": "2026-03-25T12:01:22Z",
+      "prerelease": false,
+      "commitish": "4ee454f9e2abba04027c2ac5d8e9770238748856",
+      "assets": [
+        {
+          "name": "ai.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/ai.zip",
+          "bytes": 143206,
+          "digest": "sha256:df0a8dac22da3adf7a1325ef0aa0d9ba15b3fafa1832b1ab0014a22f8c48c74e",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "csvs.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/csvs.zip",
+          "bytes": 419248,
+          "digest": "sha256:f706fd0d22683e97b2270386d32b1d63ca2657767fe20dd1b97d3e4c3814c434",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/definitions.json.zip",
+          "bytes": 567674,
+          "digest": "sha256:41084203969d65210c11ab9e21c0b20456b665e7c279eb99e1b9798428479f6f",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/definitions.ttl.zip",
+          "bytes": 747749,
+          "digest": "sha256:86503883b60417a0a76a3ecfbe14746048b310ae7878b0c4f2ef342e020206f8",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "definitions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/definitions.xml.zip",
+          "bytes": 587038,
+          "digest": "sha256:25b864087e97faf348beb7daef9ac8ae60b884507be6762da7872c79a4dec187",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/examples.json.zip",
+          "bytes": 5062,
+          "digest": "sha256:a38afd3318dc5feebe59120523ad24053e45884489d8b3138eb777dc06560d0c",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.ttl.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/examples.ttl.zip",
+          "bytes": 6269,
+          "digest": "sha256:e2a8b6319bf81f998254dcfdd084327659d324802ffaf6e9da9a5bac5533b58d",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "examples.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/examples.xml.zip",
+          "bytes": 5246,
+          "digest": "sha256:721fedeccd59bb1857ff669d1a4157fe6dd6af6e0098fe225eeaca13d35bcb25",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "excels.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/excels.zip",
+          "bytes": 1073221,
+          "digest": "sha256:c25af59d78947b172ba67d9562cf02f5e082e5b6ddaff22ca6f49403137af2dc",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.json.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/expansions.json.zip",
+          "bytes": 2735,
+          "digest": "sha256:be4592f5869960c702aabbbfd192e74dfe171be817e89576e0341815a1c7554e",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "expansions.xml.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/expansions.xml.zip",
+          "bytes": 2870,
+          "digest": "sha256:b79db8112338b53c3ef177b09cb50ac4fac8bfae5f7d2e93db30b80fc8b400b9",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "package-combined.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/package-combined.tgz",
+          "bytes": 1793764,
+          "digest": "sha256:14665c0edb931f13c931e081e9634692993bd0a2d3064d00c1311a1258287044",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "package.db",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/package.db",
+          "bytes": 5750784,
+          "digest": "sha256:919e7ce777dc1f0809da7277f48404433a3239f37883d0b943bc291e8dc6f462",
+          "contentType": "application/x-sqlite3"
+        },
+        {
+          "name": "package.r4.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/package.r4.tgz",
+          "bytes": 536323,
+          "digest": "sha256:67dbaff34327e055b725c4cb5b704321b5712ebc139ebe64b3f0fa0e3baf7a0e",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "package.r4b.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/package.r4b.tgz",
+          "bytes": 536399,
+          "digest": "sha256:005a2dca3f6f48c2909f2a2dc7915d7069bccceda4626621a71524d3044267d0",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "package.tgz",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/package.tgz",
+          "bytes": 537117,
+          "digest": "sha256:6cc9eea526cc3928ae432e13ae35258ec7d798cd615b8b15283b26211eb405c3",
+          "contentType": "application/gzip"
+        },
+        {
+          "name": "schematrons.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/schematrons.zip",
+          "bytes": 14156,
+          "digest": "sha256:8d30ecd005fafe86f8f7b74c5e7aa1abccc1ac3c4bd48e13105ac5e820d1d8af",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "spreadsheets.zip",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/spreadsheets.zip",
+          "bytes": 1072972,
+          "digest": "sha256:ee58024a58e68ceeeff5675eed4e6f3e1c31e78480d7c75cc6d7fe5cf4ebbb7b",
+          "contentType": "application/zip"
+        },
+        {
+          "name": "validator.pack",
+          "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/download/v0.1.0.0/validator.pack",
+          "bytes": 581191,
+          "digest": "sha256:4078c29797fb80a1cfdd322d1a888f8d5f4a07b55554150bf196118838ebd845",
+          "contentType": "application/octet-stream"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.0",
+      "name": "v0.1.0",
+      "url": "https://github.com/WorldHealthOrganization/smart-trust-phw/releases/tag/v0.1.0",
+      "publishedAt": "2025-10-07T06:29:03Z",
+      "prerelease": false,
+      "commitish": "release-candidate",
+      "assets": []
+    }
+  ]
+}
