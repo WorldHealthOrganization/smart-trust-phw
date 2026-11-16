@@ -8,7 +8,7 @@ experimental: false
 # version: a fork-only label (owner, 2026-11-07): never published to packages.fhir.org;
 # dependents pin the fork build by commit and SHA-256. (Comments stay on their own
 # lines: the IG Publisher's pre-scan of this file does not strip an inline comment.)
-version: 0.2.0-litlfred
+version: 0.2.0
 #fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html, as smart-base
 #fhirVersion: 4.3.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
