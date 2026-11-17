@@ -16,7 +16,7 @@ Description:  "Data elements for Digital Vaccination Certificate."
   * ^code[+] = $LOINC#21112-8 "Birth date"
   * ^code[+] = $SCT#184099003 "Date of birth (observable entity)"
 * sex 1..1 code "Sex" "Sex"
-* sex from $GENDER (extensible)
+* sex from $GENDER_VS (extensible)
   * ^code[+] = $ICVPCore#ICVP.A9.DE.3
 * nationality 1..* Coding "Nationality" "Nationality"
 * nationality from $countryVS (extensible)
