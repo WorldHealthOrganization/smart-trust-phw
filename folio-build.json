@@ -7,9 +7,9 @@
   "source": {
     "repo": "WorldHealthOrganization/smart-trust-phw",
     "ref": "main",
-    "commit": "403400f2c6b4cff1ad98a06565acb8c54b718786"
+    "commit": "adc072f3143c9c2a844a8d7082c7efd20aa53584"
   },
-  "builtAt": "2026-11-16T14:27:33.108Z",
+  "builtAt": "2026-11-17T18:53:09.772Z",
   "ast": {
     "commit": "403400f2c6b4cff1ad98a06565acb8c54b718786",
     "verdict": "valid",

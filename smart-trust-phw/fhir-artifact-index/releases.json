@@ -1,7 +1,7 @@
 {
   "$schema": "ig-releases/v1",
   "repository": "WorldHealthOrganization/smart-trust-phw",
-  "readAt": "2026-11-16",
+  "readAt": "2026-11-17",
   "releases": [
     {
       "tag": "v0.1.0.4",
