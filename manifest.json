@@ -7,7 +7,7 @@
     "versions"
   ],
   "provisionalUntil": "a full IG Publisher run",
-  "generatedAt": "2026-11-16T14:23:54.286923916Z",
+  "generatedAt": "2026-11-18T22:48:03.055495788Z",
   "ig": {
     "root": ".",
     "version": "4.0.1"
@@ -17,8 +17,8 @@
   },
   "inputs": {
     "toolchain": "ig-publisher 3.0.0 / core 7.0.1",
-    "sourceRevision": "403400f2c6b4cff1ad98a06565acb8c54b718786",
-    "inputDigest": "19de261a05228eb87b1d86ed870aecadaa23367aa2d60f10ae757af69229f320"
+    "sourceRevision": "08a497141f927679f5316220833fbe00b1083db1",
+    "inputDigest": "c935cbeae4ae2b143e2e3ba401166bed49f67d087e27b068714dd5e0979cea4c"
   },
   "packages": [
     {
@@ -109,6 +109,16 @@
       "dependencies": [
         "hl7.fhir.r4.core#4.0.1",
         "hl7.terminology.r4#7.1.0"
+      ]
+    },
+    {
+      "id": "hl7.fhir.uv.extensions.r5",
+      "version": "5.4.0",
+      "canonical": "http://hl7.org/fhir/extensions",
+      "fhirVersion": "5.0.0",
+      "dependencies": [
+        "hl7.fhir.r5.core#5.0.0",
+        "hl7.terminology.r5#7.5.0"
       ]
     },
     {
@@ -241,12 +251,11 @@
     },
     {
       "id": "hl7.terminology.r5",
-      "version": "7.3.0",
+      "version": "7.5.0",
       "canonical": "http://terminology.hl7.org",
       "fhirVersion": "5.0.0",
       "dependencies": [
-        "hl7.fhir.r5.core#5.0.0",
-        "hl7.fhir.uv.extensions.r5#5.3.0"
+        "hl7.fhir.r5.core#5.0.0"
       ]
     },
     {
@@ -365,8 +374,8 @@
       "fhirVersion": "5.0.0",
       "dependencies": [
         "hl7.fhir.r5.core#5.0.0",
-        "hl7.fhir.uv.extensions.r5#5.3.0",
-        "hl7.terminology.r5#7.3.0",
+        "hl7.fhir.uv.extensions.r5#5.4.0",
+        "hl7.terminology.r5#7.5.0",
         "ihe.iti.mcsd#4.0.0",
         "smart.who.int.base#0.1.0",
         "smart.who.int.pcmt#0.1.0"
@@ -385,7 +394,7 @@
   "terminology": {
     "server": {
       "address": "https://tx.fhir.org/r4",
-      "version": "1.0.3"
+      "version": "1.0.5"
     },
     "expansions": [
       {
