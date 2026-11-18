@@ -3,6 +3,11 @@
   "repository": "WorldHealthOrganization/smart-trust-phw",
   "versions": [
     {
+      "commit": "4fb43785f065c934dd7f1743f7ef1d78cf11fce3",
+      "date": "2026-11-18T22:48:10Z",
+      "src": "08a497141"
+    },
+    {
       "commit": "e551ef055c386fe1e1f2df2cceaecce3d7c2ef53",
       "date": "2026-11-16T14:24:08Z",
       "src": "403400f2c"

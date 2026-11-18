@@ -6,9 +6,9 @@
   "source": {
     "kind": "sushi-config",
     "of": "https://github.com/WorldHealthOrganization/smart-trust-phw",
-    "ref": "adc072f3143c9c2a844a8d7082c7efd20aa53584",
+    "ref": "08a497141f927679f5316220833fbe00b1083db1",
     "path": "sushi-config.yaml",
-    "readAt": "2026-11-17"
+    "readAt": "2026-11-18"
   },
   "groups": [
     {

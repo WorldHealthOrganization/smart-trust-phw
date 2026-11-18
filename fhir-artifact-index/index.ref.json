@@ -1,7 +1,7 @@
 {
   "$schema": "fhir-artifact-index-ref/v1",
-  "index": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-phw/e551ef055c386fe1e1f2df2cceaecce3d7c2ef53/fhir-artifact-index/index.json",
-  "base": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-phw/e551ef055c386fe1e1f2df2cceaecce3d7c2ef53/",
+  "index": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-phw/4fb43785f065c934dd7f1743f7ef1d78cf11fce3/fhir-artifact-index/index.json",
+  "base": "https://raw.githubusercontent.com/WorldHealthOrganization/smart-trust-phw/4fb43785f065c934dd7f1743f7ef1d78cf11fce3/",
   "repository": "WorldHealthOrganization/smart-trust-phw",
-  "commit": "e551ef055c386fe1e1f2df2cceaecce3d7c2ef53"
+  "commit": "4fb43785f065c934dd7f1743f7ef1d78cf11fce3"
 }
